@@ -1,0 +1,314 @@
+This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  7 JAN 2016 18:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./syuron.tex
+(./syuron.tex
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 2)
+Babel <3.9m> and hyphenation patterns for 79 languages loaded.
+(./kuee.cls
+Document Class: kuee 2005/02/04
+(c:/w32tex/share/texmf-dist/tex/platex/base/jreport.cls
+Document Class: jreport 2006/06/27 v1.6 Standard pLaTeX class
+\c@@paper=\count81
+(c:/w32tex/share/texmf-dist/tex/platex/base/jsize12.clo
+File: jsize12.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
+)
+\c@part=\count82
+\c@chapter=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 677.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count91
+)
+\kuee@post=\write3
+\@kuee@open=\count92
+)
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(c:/w32tex/share/texmf-dist/tex/latex/config/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 94.
+
+(c:/w32tex/share/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
+File: dvipdfmx.def 2015/03/26 v4.04 LaTeX color/graphics driver for dvipdfmx (T
+eX Live/ChoF)
+
+(c:/w32tex/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(c:/w32tex/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(./kueecite.sty
+Package: kueecite 2004/04/20  v 3.8
+)
+
+LaTeX Warning: Unused global option(s):
+    [syuuron].
+
+(./syuron.aux)
+\openout1 = `syuron.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 14.
+ [0]
+\clearpage
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 15.
+(./syuron.toc
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+ [1
+
+
+])
+\tf@toc=\write4
+\openout4 = `syuron.toc'.
+
+ [2]
+\clearpage
+第{1}章.
+\openout3 = `syuron.fff'.
+
+(syuron.fff)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
+ (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 39.
+ [1
+
+]
+Overfull \hbox (3.19481pt too wide) in paragraph at lines 57--71
+[]\JY1/mc/m/n/12 以上の問題を解決するために本論文は ， 評価項目内に出現する単語
+の頻度と ， 評
+ []
+
+[2] [3]
+第{2}章.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 119.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 119.
+[4
+
+] [5] [6] [7] [8]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 254.
+ [9] [10]
+第{3}章.
+[11
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 327.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 327.
+
+Overfull \hbox (2.08513pt too wide) in paragraph at lines 328--335
+[]\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 で表す\OML/cmm/m/it/12 :$ $n[]; w[]\JY1/mc/
+m/n/12 はそれぞれ頂点\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 単語を表し\OML/cmm/m/it/
+12 ; n[] \OMS/cmsy/m/n/12 2
+ []
+
+[12] [13] [14]
+Missing character: There is no ^^e2 in font cmr12!
+Missing character: There is no ^^81 in font cmr12!
+Missing character: There is no ^^84 in font cmr12!
+Missing character: There is no ^^e2 in font cmr12!
+Missing character: There is no ^^81 in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 450.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 450.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 450.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 461.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 461.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 466.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 468.
+
+[15]
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 470.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 477.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 480.
+
+
+Overfull \hbox (2.3312pt too wide) in paragraph at lines 480--484
+\JY1/mc/m/n/12 最大利用エネルギー項であり\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 この
+関数の目的は指定領域を細胞で最大限満たすこ
+ []
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 485.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 488.
+
+
+Overfull \hbox (2.3312pt too wide) in paragraph at lines 486--489
+\JY1/mc/m/n/12 ど小さくなり\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 指定領域の短辺の長
+さと最大の細胞の辺の長さが等しい場合に最小
+ []
+
+[16] [17] [18]
+Overfull \hbox (21.2818pt too wide) in paragraph at lines 573--574
+[]$\JY1/mc/m/n/12 問題 \OML/cmm/m/it/12 P[]\JY1/mc/m/n/12 を， 部分問題 \OML/cm
+m/m/it/12 P[]; :::; P[]\JY1/mc/m/n/12 に分解し\OML/cmm/m/it/12 ; A \OT1/cmr/m/n
+/12 = (\OML/cmm/m/it/12 A \OMS/cmsy/m/n/12 ^^@ []\OT1/cmr/m/n/12 ) \JY1/mc/m/n/
+12 ∪ []\OML/cmm/m/it/12 P[]; :::; P[][] \JY1/mc/m/n/12 と
+ []
+
+[19]
+第{4}章.
+
+Overfull \hbox (3.51187pt too wide) in paragraph at lines 587--594
+[]\JY1/mc/m/n/12 分析者はどのような単語や評価項目が評価構造内に現れているかに関
+心がある 。
+ []
+
+[20
+
+]
+Overfull \hbox (0.30034pt too wide) in paragraph at lines 617--619
+[]\JY1/mc/m/n/12 前節で述べたシステム要件をもとに 、 評価構造分析システムの開発
+を行 っ た 。 本
+ []
+
+[21] [22] [23]
+第{5}章.
+
+Overfull \hbox (0.53815pt too wide) in paragraph at lines 694--699
+\JY1/mc/m/n/12 実験内容はシステム要件で述べられた以下の三つの項目を考慮して作成
+を行 っ た 。
+ []
+
+[24
+
+] [25] [26]
+第{6}章.
+[27
+
+]
+第{7}章.
+[28
+
+]
+第{8}章.
+[29
+
+]
+No file syuron.bbl.
+[30
+
+] [31
+
+] AED kuee: Processing end Figures and Tables [32] (./syuron.fff
+File: ./png/es1.png Graphic file (type bmp)
+
+<./png/es1.png>
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 10--11
+ [] 
+ []
+
+File: ./png/es2.JPG Graphic file (type bmp)
+<./png/es2.JPG>
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 22--23
+ [] 
+ []
+
+File: ./png/es3.JPG Graphic file (type bmp)
+<./png/es3.JPG>
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 34--35
+ [] 
+ []
+
+[33] [34]) (./syuron.aux) ) 
+Here is how much of TeX's memory you used:
+ 1045 strings out of 493771
+ 12973 string characters out of 6153132
+ 74540 words of memory out of 5000000
+ 4552 multiletter control sequences out of 15000+600000
+ 19426 words of font info for 74 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 28i,14n,24p,291b,398s stack positions out of 5000i,500n,10000p,500000b,80000s
+
+Output written on syuron.dvi (37 pages, 113492 bytes).

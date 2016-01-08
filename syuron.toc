@@ -1,0 +1,53 @@
+\contentsline {chapter}{\numberline {第{1}章}序論 }{1}
+\contentsline {chapter}{\numberline {第{2}章}関連研究 }{4}
+\contentsline {section}{\numberline {2.1}評価構造と評価グリッド法}{4}
+\contentsline {section}{\numberline {2.2}テキストデータ分析}{7}
+\contentsline {section}{\numberline {2.3}重複阻止}{8}
+\contentsline {chapter}{\numberline {第{3}章}提案システム }{11}
+\contentsline {section}{\numberline {3.1}使用データ}{11}
+\contentsline {section}{\numberline {3.2}座標計算}{12}
+\contentsline {subsection}{\numberline {3.2.1}単語間距離行列の作成}{12}
+\contentsline {subsubsection}{出現行列}{12}
+\contentsline {subsubsection}{頂点間距離行列}{13}
+\contentsline {subsubsection}{重み行列}{13}
+\contentsline {subsection}{\numberline {3.2.2}次元削減}{14}
+\contentsline {subsection}{\numberline {3.2.3}重複阻止}{14}
+\contentsline {subsubsection}{目的関数}{15}
+\contentsline {paragraph}{単語集約エネルギー項}{16}
+\contentsline {paragraph}{指定領域最大利用エネルギー項}{16}
+\contentsline {subsubsection}{制約条件}{16}
+\contentsline {section}{\numberline {3.3}計算方法}{18}
+\contentsline {chapter}{\numberline {第{4}章}提案システム }{20}
+\contentsline {section}{\numberline {4.1}システム要件}{20}
+\contentsline {subsubsection}{評価構造の全体を把握する}{20}
+\contentsline {subsubsection}{評価項目間の関係性を把握する}{20}
+\contentsline {subsubsection}{重要な項目を特定する}{20}
+\contentsline {subsubsection}{実験参加者をグループ分けする}{21}
+\contentsline {subsubsection}{評価項目をグループ分けする}{21}
+\contentsline {section}{\numberline {4.2}システム設計と実装}{21}
+\contentsline {subsection}{\numberline {4.2.1}概要}{21}
+\contentsline {subsubsection}{評価構造の全体を把握する}{22}
+\contentsline {subsubsection}{評価項目間の関係性を把握する}{22}
+\contentsline {subsubsection}{重要な項目を特定する}{22}
+\contentsline {subsection}{\numberline {4.2.2}ユーザインタラクション}{22}
+\contentsline {chapter}{\numberline {第{5}章}評価実験 }{24}
+\contentsline {section}{\numberline {5.1}比較実験}{24}
+\contentsline {subsection}{\numberline {5.1.1}比較対象}{24}
+\contentsline {subsection}{\numberline {5.1.2}実験データ}{24}
+\contentsline {subsection}{\numberline {5.1.3}実験内容}{24}
+\contentsline {subsection}{\numberline {5.1.4}実験手順}{25}
+\contentsline {section}{\numberline {5.2}ケーススタディ}{25}
+\contentsline {section}{\numberline {5.3}ユーザーフィードバック}{26}
+\contentsline {chapter}{\numberline {第{6}章}実験結果 }{27}
+\contentsline {section}{\numberline {6.1}比較実験}{27}
+\contentsline {section}{\numberline {6.2}ケーススタディ}{27}
+\contentsline {section}{\numberline {6.3}ユーザーフィードバック}{27}
+\contentsline {chapter}{\numberline {第{7}章}考察 }{28}
+\contentsline {section}{\numberline {7.1}比較実験}{28}
+\contentsline {section}{\numberline {7.2}ケーススタディ}{28}
+\contentsline {section}{\numberline {7.3}ユーザーフィードバック}{28}
+\contentsline {chapter}{\numberline {第{8}章}結論と課題 }{29}
+\contentsline {section}{\numberline {8.1}結論}{29}
+\contentsline {section}{\numberline {8.2}課題}{29}
+\contentsline {chapter}{謝 辞}{30}
+\contentsline {chapter}{参 考 文 献}{31}
