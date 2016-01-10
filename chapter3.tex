@@ -1,0 +1,336 @@
+\documentclass[syuuron]{kuee}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{kueecite}
+
+\title{評価構造における単語間の関係性可視化に関する研究}
+\author{小澤 啓太}
+\professor{小山田 耕二 教授}
+\course{京都大学大学院 工学研究科}
+\department{電気工学専攻}
+\date{平成28年2月4日}
+
+%%% 本文
+\begin{document}
+\maketitle
+\tableofcontents
+
+%%%本提案システム
+\chapter{提案システム}
+	本章では, 提案システムで使用する評価構造のテキストデータの説明と, 評価構造のテキストデータから単語のWord Cloud内座標を計算するまでのプロセスについて述べる. 
+	
+	\section{使用データ}
+		評価構造データ向けのテキストベース可視化を行うにあたって，評価グリッド法による評価構造データの作成を行った．
+		本研究では, E-Gridを用いて評価構造データの作成を行った. 
+		E-Gridとは, 評価グリッド法に基づいた評価構造の抽出や分析をビジュアル的に支援するシステムであり, 
+		評価構造を抽出する機能から評価構造データを作成した. 
+		E-Gridでのインタビューは基本的に1人ずつで行い，個人の評価構造を作成する．
+		その後，回答者全体の評価構造を把握するため，個人毎の評価構造を統合し全体の評価構造を作成する．
+		E-Gridにより作成される評価構造データは評価項目と隣接する評価項目，評価項目の回答者数 (＝重み) ，評価項目のテキストラベル, 評価項目の回答者名等が格納されている．
+		提案する可視化手法は評価項目の重み，隣接する評価項目の情報，評価項目内のテキストラベルの情報を使用する．
+		提案手法では文章ではなく単語ごとに可視化する必要があるので，テキストラベルに形態素解析を行った. 
+		形態素解析には日本語形態素解析システムMeCab\cite{mcb1}と形態素解析辞書Unidicを使用した．
+		Unidicは, 語彙素・語形・書字形・発音形の階層構造を持つので，表記の揺れや語形の変異にかかわらず同一の単語と識別することが可能である. 
+		提案手法では, 表記の揺れや語形の変異がある単語はそれぞれの単語の語彙素を表示する. 
+		形態素解析により抽出した単語の中で品詞が名詞・動詞・形容詞のいずれかである単語を提案システムでは使用する. 
+		以上から得られたデータに以下のプロセスを通し可視化を行う. 
+		
+	\section{座標計算}
+		提案システムでの可視化プロセスは大きく3つに分けられる. 
+		はじめに, 評価構造データから評価構造内単語間の距離行列を作成する. 
+		次に, 評価構造内単語間の距離関係を保持したまま単語をWord Cloud可視化するため, 次元削減法を用いて各単語のx, y座標を計算する. 
+		最後に, 計算した座標では単語間の重複が発生する場合があるので, 
+		単語の重複を阻止し, しかし単語間の位置関係を崩さず, 指定領域を最大限活かすことのできる単語の座標を再計算する. 
+		Word Cloudに可視化する際は再計算された座標を使用する. 
+		以下の項では, 可視化プロセスの詳細を説明する. 
+		
+		\subsection{単語間距離行列の作成}
+			前章で記述したとおり，提案手法ではWord Cloud内の単語の座標を評価構造内での単語の距離関係を考慮して決定する．
+			評価構造内の単語間の距離関係は単語が使用されている頂点の距離関係から計算され，距離行列Dで表す．
+			単語間距離行列Dは，評価構造から計算される出現行列F，頂点間距離行列U，重み行列A から計算される．
+			Fig?は評価構造と評価構造から取得された出現行列F，頂点間距離行列U，重み行列Aの例を表す．
+			以下では出現行列F，頂点間距離行列U，重み行列Aの導出方法を述べる．
+			$頂点群はN \in {n_{1}, n_{2}, ..., n_{l}}, 単語群はW \in {w_{11}, w_{12}, ..., w_{1k}, w_{21},..., w_{ij},..., w_{lm}}, で表す. $
+			$n_i,w_{ij}はそれぞれ頂点, 単語を表し, n_i \in {w_{i1}, w_{i2}, ..., w_{ip}}$となる. 
+		
+			\subsubsection{出現行列}
+				出現行列Fは頂点と単語の関係を表す行列である．
+				出現行列の列は評価構造内の頂点を, 行は全頂点から形態素解析を行い取り出したの全ての単語群を表す. 
+				i行目の単語がj列目の頂点の文章に出現する場合，第i行第j列の要素が1となり，出現しない場合は0となる行列である．
+				この行列から各頂点に出現する単語を知ることができる. 
+				\begin{eqnarray}
+				 F = \left(
+				    \begin{array}{cccc}
+				    	f_{11} & \ldots & f_{1l} \\
+				    	\vdots & \ddots & \vdots \\
+				    	f_{m1} & \ldots & f_{ml}
+					\end{array}
+				 \right)
+				\end{eqnarray}	
+				\[
+				  f_{ij} = \left\{ \begin{array}{ll}
+				    1 & (n_i \in w_j) \\
+				    0 & (otherwise)
+				  \end{array} \right.
+				\]
+				
+			\subsubsection{頂点間距離行列}
+				頂点間距離行列Uは，各頂点間の距離関係を表す行列である. 
+				ネットワーク図の頂点ViとVjの最短距離の経路でノードをn個経由する場合, 
+				第i行第j列と第j行第i列の要素がn+1となる行列である．
+				最短経路の計算は幅優先探索アルゴリズムを使用した. 
+				このアルゴリズムは横型探索とも言われ, 以下のルールに従って探索を行う. 
+				
+				\begin{enumerate}
+					\item 根ノードを空のキューに加える. 
+					\item ノードをキューの先頭から取り出し, 以下の処理を行う. 
+						\begin{itemize}
+							\item ノードが探索対象であれば, 探索をやめ結果を返す. 
+							\item そうでない場合, ノードの子で未探索のものを全てキューに追加する. 
+						\end{itemize}
+					\item もしキューが空ならば, グラフ内の全てのノードに対して処理が行われたので, 探索をやめ"not found"と結果を返す. 
+					\item 2に戻る. 
+				\end{enumerate}
+				
+				\begin{eqnarray}
+				 U = \left(
+				    \begin{array}{cccc}
+				    	u_{11} & \ldots & u_{1l} \\
+				    	\vdots & \ddots & \vdots \\
+				    	u_{l1} & \ldots & u_{ll}
+					\end{array}
+				 \right)
+				\end{eqnarray}	
+				
+			\subsubsection{重み行列}
+				各頂点の重み行列Aは，各頂点の回答者数を表す行列である．
+				\begin{eqnarray}
+				 A = \left(
+				    \begin{array}{cccc}
+				    	a_{11} & \ldots & a_{1l} \\
+				    	\vdots & \ddots & \vdots \\
+				    	a_{l1} & \ldots & a_{ll}
+					\end{array}
+				 \right)
+				\end{eqnarray}	
+				
+			上記の3行列F，U，Aを計算した後，以下の式によって単語間距離行列Dを計算する．
+			$ネットワーク図内の単語w_iとw_jの最短距離の平均値が, $
+			第i行第j列と第j行第i列の値となる行列である．
+			\begin{eqnarray}
+			 D = \frac{1}{2} FAUA^{\mathrm{T}}F^{\mathrm{T}}
+			   = \left(
+			    \begin{array}{cccc}
+			    	d_{11} & \ldots & d_{1m} \\
+			    	\vdots & \ddots & \vdots \\
+			    	d_{m1} & \ldots & d_{mm}
+				\end{array}
+			 \right)
+			\end{eqnarray}	
+			
+		\subsection{次元削減}
+			次に, 評価構造内単語間の距離関係を保持したまま単語をWord Cloud可視化するため, 単語のx, y軸の値を求めるために次元削減を行う．
+			次元削減を行うことで，単語数の行と2列の行列式を計算し，この2次元の値を単語のx, y軸の値にする．
+			提案システムでは多次元尺度構成法を適用することで次元削減を行う. 
+			多次元尺度構成法とは, 多変量解析の一手法である.  分類対象物の関係を低次元空間における点の布置で表現する. 
+			多次元尺度法では, 始めにヤング・ハウスホルダー変換を施す. 
+			ヤング・ハウスホルダー変換は距離の2乗の行列に両側から中心化行列をかける演算であり, 以下の式で表す. 
+			\begin{eqnarray}
+				P = - \frac{1}{2} JDJ^{\mathrm{T}}
+			\end{eqnarray}
+			$単語数をnとすると, 行列Jは単位行列から全要素に1/nの行列を引いたn \times n行列を引いたn \times n行列$
+			$行列Dは点 x_i と x_j の間の距離 d_{ij} の2乗を要素とするn×n行列である．$
+			次に, Pをスペクトル分解することで固有値, 固有ベクトルを求め, 固有値の大きい方から2つ取り, 対応する固有ベクトルを取り出す. 
+			各単語のx,y座標は取り出した2つの固有ベクトルの値となる. 
+			
+		\subsection{重複阻止}
+			最後に, 計算した座標では単語間の重複が発生するので, 単語間の相対的位置関係を崩さないように単語の重なりの除去を行う. 
+			提案手法ではErickらが提案した重複阻止手法を参考にした\cite{or2}. 
+			Erickらの提案手法では指定領域内で格子を生成し, 格子の1区画を細胞と呼ぶ. 
+			そして座標点が存在する細胞だけを残し, 細胞の位置座標を最適化計算する手法である. 
+			この手法では, 細胞間の相対的位置関係保持, 細胞間の重複阻止, 指定領域の最大利用を達成する
+			最適な細胞の座標を計算する. 
+			提案手法では単語内の1文字を格子の1細胞, 各単語を細胞が隣接する長方形と置き換え, 単語の位置の最適化計算を行う. 
+			提案手法では, 正方形の細胞ではなく長方形の細胞の座標最適化計算なので一部制約条件を修正した. 
+			以下の節では最適化計算で用いる目的関数, 制約条件の説明を行う. 
+			
+			指定領域に配置する単語の集合を$G={g_1,g_2,…,g_n}$とし, 単語の各文字, 
+			すなわち各細胞の集合を$H={h_{11},h_{12},…,h_{1m},h_{21},…,h_{nm}}$とする. 
+			各細胞は正方形であり, $h_{ij}=(x_{ij},y_{ij},w_{ij})$で表される. 
+			$(x_{ij},y_{ij})$は正方形 $g_{ij}$  の中心点, $w_{ij}>0$ は正方形 $g_{ij}$ の辺の長さである. 
+			$w_{ij}$  は $w_{ij} = \alpha_i \delta $,$ \alpha_i $は $ \alpha_i=  e_i⁄(max⁡(e_1,e_2,…,e_n))$ と表し, 
+			$e_i $ は単語 $ g_i $ の評価構造内での出現頻度を表す. 
+			すなわち $w_{i1}= w_{i2}=⋯=w_{im}$ となる.$ \delta $ は再編成後の最頻出語の辺の長さを表す. 
+			各細胞は縦, 横の辺の長さが $W × H$である指定領域内で細胞間の大きさの比率を維持しつつ, 
+			細胞間の重複阻止と指定領域の最大利用, 細胞間の相対的位置関係の保持を達成するように再編成される. 
+			
+			\subsubsection{目的関数}
+				指定領域内で単語を再編成するために, 提案手法では単語の再編成を以下のように最適化問題として定式化した.
+				\begin{eqnarray}
+					minimize\:\:   \sl{E(\bf{z})} = \sl{E_{comp}(\bf{z})} + \sl{E_{resize}(\bf{z})} \nonumber \\
+					subject\: to\:\:   A \bf{z} \le \bf{b},   \bf{z} = [\bf{x} \: \bf{y} \: \bf{r} \: \bf{\delta}]^T, \nonumber \\
+					\bf{x} = (x_1,x_2,...,x_N)^T \in \bf{R}^N \nonumber \\
+					\bf{y} = (y_1,y_2,...,y_N)^T \in \bf{R}^N \\
+					\bf{r} = (r_{12},...,r_{1N},r_{23},...,r_{2N},...,r_{N−1N})^T, 
+					\bf{r_{ij}} \in {0,1} \nonumber \\
+					\delta \le min(W,H) \nonumber,
+				\end{eqnarray}				
+				$\bf{z} は求める変数である$. 
+				$ \bf{x}, \bf{y} は細胞の重心座標$,  $ \bf{r} は単語の重複を防ぐための調整変数, \delta は再編成後の最頻出語の辺の長さを表す変数である$. 
+				$A, \bf{b} は最適化問題の制約条件を表す行列である$. 
+				$エネルギー項 \sl{E_{comp}(\bf{z})},  \sl{E_{resize}(\bf{z})} はそれぞれ単語と指定領域を操作する関数である$. 
+				前者は単語間重複と相対的位置関係の保持を考慮する単語集約エネルギー項, 後者は指定領域を可能な限り最大利用するための指定領域最大利用エネルギー項である. 
+				以下では2つのエネルギー項についての詳細を述べる. 
+			
+				\paragraph{単語集約エネルギー項}
+					一つ目のエネルギー関数 $\sl{E_{comp}(\bf{z})} $ は単語集約エネルギー項であり, 
+					この関数の目的は細胞を狭い範囲で簡潔に表すことである. 
+					エネルギー関数$ \sl{E_{comp}(\bf{z})} $は, 細胞の重心座標を変数とした二次間数で以下の式で表す. 
+					\begin{eqnarray}
+						\sl{E_{comp}(\bf{z})} = C \sum_{(i,j)} {{(x_i - x_j)^2 + (y_i - y_j)^2} },\\
+						C = \frac{1} {( min(W,H) \times \frac{n(n-1)} {2} )},\nonumber
+					\end{eqnarray}			
+					$(i,j)=(j,i) は単語 (g_i, g_j), i, j \in {1,2,…,n}の組み合わせを表す.$ 
+					$x_i, y_i は単語g_iの重心点の座標であり, x_i = \frac{\sum_{j} x_{ij}} {m}, y_i=  \frac{\sum_{j} y_{ij}} {m}で表す. $
+					$n は単語数を表し,mは単語g_i  の文字数である. $
+					Cは標準化のための定数であり, 指定領域最大利用エネルギー項との値の調節を行う. 
+					$ \sl{E_{comp}(\bf{z})}は単語間の距離が短くなるほど小さくなり, 最小となるのは全単語の重心点が重なる場合である. $
+				
+				\paragraph{指定領域最大利用エネルギー項}
+					$二つ目のエネルギー関数 \sl{E_{resize}(\bf{z})} は指定領域最大利用エネルギー項であり, 
+					この関数の目的は指定領域を細胞で最大限満たすことである. $
+					上記したように全ての細胞の辺の長さは, 最大の細胞の辺の長さに依存している. 
+					そこで提案手法では指定領域最大利用エネルギー関数を以下の二次間数で表す. 
+					\begin{eqnarray}
+						\sl{E_{resize}(\bf{z})} = (\delta - min(W,H) )^2,
+					\end{eqnarray}
+					$min(W,H)とは指定領域の短辺の長さを表す. $
+					$ \sl{E_{resize}(\bf{z})} は細胞の辺が長くなるほど小さくなり, 指定領域の短辺の長さと最大の細胞の辺の長さが等しい場合に 最小になる. $
+					
+				制約条件がない場合だと式(?)のエネルギー関数は全細胞の重心が重なり, 最大の細胞の辺の長さが指定領域短辺の長さと等しい場合が最小となる.
+				この状況では単語重複が達成されていないので3つの制約条件を設けた. 
+				次項では3つの制約条件の詳細を説明する. 
+			
+			\subsubsection{制約条件}
+				$式(?)で表したように, A, \bf{b} は制約条件を表す行列であり, 重複阻止, 相対的位置関係, 指定領域からのはみ出しの阻止の保持を行う.$ 
+				各単語の初期座標は$(x_i,y_i)$と与えられており, 
+				単語の相対的位置関係を保存するための制約条件は以下で表される. 
+				\begin{eqnarray}
+					x_{p1} \le x_{p2} \le ... \le x_{pn} \Rightarrow x_{pi} - x_{pi+1} \le 0 \nonumber \\ 
+					y_{p1} \le y_{p2} \le ... \le y_{pn} \Rightarrow y_{pi} - y_{pi+1} \le 0
+				\end{eqnarray}
+				$p, q : \bigl\{ 1,2,…,n \bigl\} \rightarrow \bigl\{ 1,2,…,n \bigl\} は単語の初期座標x_i,y_i を大きさ順に並び替えるために使用した. $
+			
+				重複阻止は以下の制約条件を用いて行われる. 				
+				\begin{eqnarray}
+					|x_j - x_i| \ge \frac{( \alpha_i n_i + \alpha_j n_j)} {2} \delta,\nonumber \\
+					  or  \\
+					|y_j - y_i| \ge \frac{( \alpha_i + \alpha_j)} {2} \delta,\nonumber 
+				\end{eqnarray}
+				$式(?)から x_j \ge x_i, y_j \ge y_i が成り立つ場合,|x_j - x_i|= x_j-x_i, |y_j - y_i| = y_j-y_iとなり, $
+				式(?)は以下のように表すことができる.				
+				\begin{eqnarray}
+					x_j - x_i \le - \frac{( \alpha_i n_i + \alpha_j n_j)} {2} \delta,\nonumber \\
+					 \: or \: \\
+					y_j - y_i \le - \frac{( \alpha_i + \alpha_j)} {2} \delta,\nonumber 
+				\end{eqnarray}
+				$この数式の or 条件はバイナリ値r_{ij} \in \bigl\{0, 1 \bigl\}を用いて次式のように表すことができる. $
+				\begin{eqnarray}
+					x_j - x_i \le \alpha_{ij} \delta + M r_{ij} 
+					\Leftrightarrow
+					y_j - y_i \le \alpha_{ij} \delta + M(1 - r_{ij}) ,\\
+					\alpha_{ij} = - \frac{(\alpha_i n_i + \alpha_j n_j)} {2}
+				\end{eqnarray}
+				$Mは値のとても大きい定数, n_iは単語iの文字数を表す.$
+				$r_{ij}は式(?)の不等式の片方が成立する場合, もう片方の式を成立させる. $
+				$例えば,  x_j - x_i \le \alpha_{ij} \delta が成り立つ場合, r_{ij}を0とする. $
+				$その場合, y_j - y_i \le \alpha_{ij} \delta + M(1 - r_{ij})はyがどんな値であろうと成り立つ$
+				
+				最後に 単語が指定領域外に出ることを防ぐために以下の制約条件を設定した.
+				\begin{eqnarray}
+					0 \le x_i  -  \frac{a_i n_i} {2} \delta \:  and \:  x_i  +  \frac{a_i n_i} {2} \delta \le W, \nonumber \\
+					0 \le y_i  -  \frac{a_i} {2} \delta  \: and \:  y_i  +  \frac{a_i} {2} \delta \le H ,\\
+					i = 1, 2, ...,N, \nonumber
+				\end{eqnarray}
+				この3つの制約条件により, 重複阻止と指定領域の最大利用, 細胞間の相対的位置関係の保持を満たした単語の再編成が達成される. 
+	
+	\section{計算方法}
+		提案手法では, 単語間距離行列を計算したが, この計算はpythonを用いた. 
+		単語間距離行列を求めるために頂点間距離行列を求めたが, その際の幅優先探索はMATLABを用いて行った. 
+				
+		また, 提案手法では単語の重複阻止のために最適化計算を行っており, この計算は混合整数二次計画問題である. 
+		最適化計算には, Gurobi Optimization Package\footnote{http://www.gurobi.com/}により提供されるソルバーGurobi Optimizerを用いて行った.
+		Gurobi Optimizerでは, 最適化計算は混合整数二次計画問題は分枝限定法を使って解く. 
+		分枝限定法とは最適化問題の最適解を求めるための汎用アルゴリズムであり, アルゴリズムは以下となる．
+		$P_0$を最適化問題(最小値を求める問題), zを最適解の最小値, f(P)を目的関数の値, g(P)を目的関数の緩和問題の値とする. 
+				
+				\begin{enumerate}
+					\item 初期設定： $A = {P_0}, z = ∞$
+					\item $A = φ$ ならば終了．
+						\begin{itemize}
+						\item $z = ∞： 問題 P_0 は解を持たない$
+						\item $z < ∞： f(P_0) = z$
+						\end{itemize}
+					\item $集合 A の中から，部分問題 P_i を選択$
+					\item $もし，緩和問題 P'_i が解を持たなければ，$
+					\begin{description}
+						\item $A = A - {P_i} として，2 へ戻る$
+					\end{description}
+					そうでなけでば，
+					\begin{description}
+						\item $もし，g(P'_i) = f(P_i) として，P_i の最適値が得られたら，$
+						\begin{description}
+							\item $z = min \bigl\{z, f(P_i)\bigr\}， A = A - {P_i} として，2 へ戻る．$
+						\end{description}
+						\item そうでなければ
+						\begin{description}
+							\item $もし，g(P'_i) ≧ z ならば$
+							\begin{description}
+								\item $A = A - {P_i} として，2へ戻る．$
+							\end{description}
+							\item そうでなければ
+							\begin{description}
+								\item $問題P_iを，部分問題 P_{i1}, ..., P_{ik} に分解し, A = (A - {P_i}) ∪ \bigl\{ P_{i1}, ..., P_{ik} \bigr\} として，2へ戻る．$
+							\end{description}
+						\end{description}
+					\end{description}
+				\end{enumerate}
+% https://www.sist.ac.jp/~suganuma/kougi/other_lecture/SE/opt/combination/combination.htm
+% http://ideas.paunix.org/latex/latex_6_list.htm
+
+%======================================================================
+%		参考文献
+%======================================================================
+\bibliographystyle{kueethesis}
+\bibliography{sotsuron}
+\begin{thebibliography}{数字}
+	\bibitem{egm1} 奥西智哉, 炊飯米を生地に添加したパンの官能評価. 日本食品科学工学会誌, 56, 424-428, (2009).
+	\bibitem{egm2} 入江正和, 豚肉質の評価法. 日本養豚学会誌, 39, 221-254, (2002).
+	\bibitem{egm3} 来田宣幸, 赤井聡文. 野球における球速と球速感の関係. 日本認知心理学会発表論文集, 42-42, (2009).
+	\bibitem{egm4} 中前光弘, 順位法を用いた視覚評価の信頼性について: 順序尺度の解析と正規化順位法による尺度構成法. 日放技学誌, 56, 725-730, (2000).
+	\bibitem{egm5} 大山正, 瀧本誓, 岩澤秀紀. 順位法を用いた視覚評価の信頼性について: 順序尺度の解析と正規化順位法による尺度構成法. 行動計量学, 20, 55-64, (1993).
+	\bibitem{egm6} J. Sanui, Visualization of users’requirements: Introduction of Evaluation Grid Method, Proceedings of the 3rd Design and Decision Support System in Architecture and Urban Planning Conference, 365-374, (1996).
+	\bibitem{egm7} 讃井純一郎, 乾正雄. レパートリー・グリッド発展手法による住環境評価構造の抽出：認知心理学に基づく住環境評価に関する研究(1). 日本建築学会計画系論文報告集, 367, 15-22, (1986).
+	\bibitem{egm8} 尾上洋介, 久木元伸如, 小山田耕二. 可視化情報学会における会員満足度の因果関係分析. 可視化情報学会論文集, 34, 43-51, (2014).
+	\bibitem{egm9} 本村陽一, 金出武雄. ヒトの認知・評価構造の定量化モデリングと確率推論. 電子情報通信学会技術研究報告, 104, 25-30, (2005).
+	\bibitem{rg1} G. A. Kelly, The Psychology of Personal Constructs, 1 and 2, (1955).
+	\bibitem{net1} Y. Onoue, N. Kukimoto, N. Sakamoto, K. Koyamada, Network Coarse-Graining for Evaluation Structures, In Proc. of International Conference on Simulation Technology, 34, 447-450, (2015). 
+	\bibitem{kh1} 樋口耕一, テキスト型データの計量的分析. 理論と方法, 19, 101-115, (2004).
+	\bibitem{wg1} Riehmann. P, Gruendl. H, Potthast. M, Trenkmann. M, Stein. B, Froehlich. B, WORDGRAPH: Keyword-in-Context Visualization for NETSPEAK's Wildcard Search. Visualization and Computer Graphics, IEEE Transactions on 18.9, 1411-1423, (2012).
+	\bibitem{rwc1} Strobelt. H, Spicker. M, Stoffel. A, Keim. D, Deussen. O, Rolled‐out Wordles: A Heuristic Method for Overlap Removal of 2D Data Representatives, Computer Graphics Forum, 31, 1135-1144, (2012).
+	\bibitem{fta1} Huang. X, Lai. W, Force-transfer: a new approach to removing overlapping nodes in graph layout, Proceedings of the 26th Australasian computer science conference, 16, 349-358, (2003).
+	\bibitem{or1} Gomez-Nieto. E, San Roman. F, Pagliosa. P, Casaca. W, Helou. E. S, Oliveira. M. C. F, Nonato. L. G, Similarity Preserving Snippet-Based Visualization of Web Search Results, Visualization and Computer Graphics, IEEE Transactions on, 20, 457-470, (2014).
+	\bibitem{or2} Gomez-Nieto. E, Casaca. W, Motta. D, Hartmann. I, Taubin. G, Nonato. L, Dealing with Multiple Requirements in Geometric Arrangements, Visualization and Computer Graphics, IEEE Transactions on, 1, (2015).
+	\bibitem{mcb1} T. Kuo, K. Yamamoto, Y. Matsumoto, Applying Conditional Random Fields to Japanese Morphological Analysis, Proceedings of the 2004 conference on empirical methods in natural language processing, 230-237, (2004).
+	\bibitem{hak1} 尾上洋介, 評価構造のビジュアル分析に関する研究,博士論文, 2016.
+\end{thebibliography}
+
+%======================================================================
+%		付録
+%======================================================================
+\appendix
+
+
+\end{document}
+% Local Variables:
+% fill-column: 70
+% End:

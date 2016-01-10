@@ -1,0 +1,124 @@
+\documentclass[syuuron]{kuee}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{kueecite}
+
+\title{評価構造における単語間の関係性可視化に関する研究}
+\author{小澤 啓太}
+\professor{小山田 耕二 教授}
+\course{京都大学大学院 工学研究科}
+\department{電気工学専攻}
+\date{平成28年2月4日}
+
+%%% 本文
+\begin{document}
+\maketitle
+\tableofcontents
+
+
+%%評価実験あああああああああああああああ
+\chapter{評価実験}
+	本章では, 提案手法の有効性を証明するために行った比較実験とケーススタディ, ユーザーフィードバックの評価実験について述べる. 
+	\section{比較実験}
+		\subsection{比較対象}
+			実験では, 2組の比較実験を行った. 
+			1組目は提案手法による可視化結果と従来のネットワーク表示の比較である. 
+			この比較実験により, Word Cloudによる可視化の有効性を証明する. 
+			2組目は提案手法のようにWord Cloudの単語の座標を計算して配置した可視化結果と, 配置座標をランダムに決定した可視化結果との比較結果を行った. 
+			こちらの比較実験ではWord Cloudの配置座標を考慮することの有効性を証明する. 
+			
+		\subsection{実験データ}
+			実験には3種類の評価構造ネットワークデータを使用する. 
+			それぞれのデータは, E-gridを使用したインタビュー結果から得られたものを元にした. 
+			ノード数はそれぞれ15個, 45個, 139個の3種類用意した. 
+		
+		\subsection{実験内容}
+			3種類の評価構造データの可視化に対してそれぞれ3種類のタスクを用意した. 
+			実験内容はシステム要件で述べられた以下の三つの項目を考慮して作成を行った。
+			(1)どのような評価項目が現れているかを見る。
+			(2)選択した評価項目と関連する評価項目を見つける。
+			(3)重要な評価項目を特定する。
+			
+			システム要件(1)では、評価構造の要約や予想外の要素の特定など評価構造の全体を把握することが望まれていた。
+			そこでタスク1では、評価構造内に存在する評価項目をランダムに指定し、発見するというタスクを設定した。
+			頻出する評価項目だけでなく、1度しか回答されていない評価項目など様々な評価項目を発見する時間、精度を計測することで
+			システム要件(1)への有効度を確かめた。
+			システム要件(2)では、評価項目の上位項目と下位項目の発見が望まれていた。
+			そこでタスク2では、評価構造内に存在する評価項目をランダムに指定し、その項目と隣接する項目を発見するというタスクを設定した。
+			評価項目の上位、下位項目の発見の時間、精度を計測することでシステム要件(2)への有効度を確かめた。
+			システム要件(3)では、複数の実感参加者から回答される評価項目の特定が望まれていた。
+			そこでタスク3では、評価構造内で複数の実感参加者から回答された評価項目を発見するというタスクを設定した。
+			タスク3を行うことでシステム要件(3)への有効度を確かめた。
+			
+			1つのタスクにつき制限時間を100秒とした. 
+			実験用のプログラムはWebベースで開発を行い, 結果の記録や問題の生成を自動化した. 
+		
+		\subsection{実験手順}
+			実験参加者は?人である. 
+			実験参加者毎に, 可視化結果とデータの組み合わせをランダムに生成し, 順番に実行するように指示をした. 
+			実験には, ネットワーク図が画面内に収まる十分な大きさのディスプレイと. 使い慣れたポインティングデバイスを使用するように指示をした. 
+		
+	\section{ケーススタディ}
+		本節では, 提案システムを用いたケーススタディを1名が行い, 提案システムで評価構造の頻出語や頻出語から帰結する評価基準の探索を行った. 
+		実験に使用した機材はCPU がIntel Core i?，メモリが?.0GB，OS がwindows 8 のPC である．
+		参加者にはシステムの使用方法について事前にビデオを見せて説明した. 以下では実験に使用したデータについて述べる. 
+		
+		ケーススタディでは, 行きたい旅行先についての評価構造を使用した. 
+		被験者は, 複数人での旅行計画を考えており, その際に多くの旅行参加者の希望をかなえた旅行計画を作成するために提案システムを使用した. 
+		評価構造データは, E-gridを使用して作成された. 
+		データは被験者との旅行に参加する6人から得られた評価構造を統合して作成された. 
+		Word Cloudでは評価構造のテキストデータの中から名詞, 動詞, 形容詞を抽出して可視化した. 
+		また, 名詞のうち数字は除外した. 
+		
+	\section{ユーザーフィードバック}
+		比較実験後に?名の参加者にはシステムに関する5 段階評価アンケートを行った. 
+		5段階評価アンケートの項目は以下である. 
+		\begin{itemize}
+			\item 新しい発見や仮説構築につながる示唆が得られそうか
+			\item 多くの人が共有する評価項目を発見することに有効であるか
+			\item 評価項目間の因果関係を発見することに有効であるか
+		\end{itemize}
+		また, ケーススタディの後に1名の参加者にも同様のアンケートを行った. 
+		その際に以下の項目を追加した. 
+		\begin{itemize}
+			\item 旅行計画を作成する際に役に立ったか
+			\item 参加者の行きたい旅行先についての概要を把握することができたか
+		\end{itemize}
+		比較実験とケーススタディ参加者には，5 段階評価アンケートと同時に提案システムの有効な点や改善が必要な点に関する自由記述アンケートを行った．
+
+%======================================================================
+%		参考文献
+%======================================================================
+\bibliographystyle{kueethesis}
+\bibliography{sotsuron}
+\begin{thebibliography}{数字}
+	\bibitem{egm1} 奥西智哉, 炊飯米を生地に添加したパンの官能評価. 日本食品科学工学会誌, 56, 424-428, (2009).
+	\bibitem{egm2} 入江正和, 豚肉質の評価法. 日本養豚学会誌, 39, 221-254, (2002).
+	\bibitem{egm3} 来田宣幸, 赤井聡文. 野球における球速と球速感の関係. 日本認知心理学会発表論文集, 42-42, (2009).
+	\bibitem{egm4} 中前光弘, 順位法を用いた視覚評価の信頼性について: 順序尺度の解析と正規化順位法による尺度構成法. 日放技学誌, 56, 725-730, (2000).
+	\bibitem{egm5} 大山正, 瀧本誓, 岩澤秀紀. 順位法を用いた視覚評価の信頼性について: 順序尺度の解析と正規化順位法による尺度構成法. 行動計量学, 20, 55-64, (1993).
+	\bibitem{egm6} J. Sanui, Visualization of users’requirements: Introduction of Evaluation Grid Method, Proceedings of the 3rd Design and Decision Support System in Architecture and Urban Planning Conference, 365-374, (1996).
+	\bibitem{egm7} 讃井純一郎, 乾正雄. レパートリー・グリッド発展手法による住環境評価構造の抽出：認知心理学に基づく住環境評価に関する研究(1). 日本建築学会計画系論文報告集, 367, 15-22, (1986).
+	\bibitem{egm8} 尾上洋介, 久木元伸如, 小山田耕二. 可視化情報学会における会員満足度の因果関係分析. 可視化情報学会論文集, 34, 43-51, (2014).
+	\bibitem{egm9} 本村陽一, 金出武雄. ヒトの認知・評価構造の定量化モデリングと確率推論. 電子情報通信学会技術研究報告, 104, 25-30, (2005).
+	\bibitem{rg1} G. A. Kelly, The Psychology of Personal Constructs, 1 and 2, (1955).
+	\bibitem{net1} Y. Onoue, N. Kukimoto, N. Sakamoto, K. Koyamada, Network Coarse-Graining for Evaluation Structures, In Proc. of International Conference on Simulation Technology, 34, 447-450, (2015). 
+	\bibitem{kh1} 樋口耕一, テキスト型データの計量的分析. 理論と方法, 19, 101-115, (2004).
+	\bibitem{wg1} Riehmann. P, Gruendl. H, Potthast. M, Trenkmann. M, Stein. B, Froehlich. B, WORDGRAPH: Keyword-in-Context Visualization for NETSPEAK's Wildcard Search. Visualization and Computer Graphics, IEEE Transactions on 18.9, 1411-1423, (2012).
+	\bibitem{rwc1} Strobelt. H, Spicker. M, Stoffel. A, Keim. D, Deussen. O, Rolled‐out Wordles: A Heuristic Method for Overlap Removal of 2D Data Representatives, Computer Graphics Forum, 31, 1135-1144, (2012).
+	\bibitem{fta1} Huang. X, Lai. W, Force-transfer: a new approach to removing overlapping nodes in graph layout, Proceedings of the 26th Australasian computer science conference, 16, 349-358, (2003).
+	\bibitem{or1} Gomez-Nieto. E, San Roman. F, Pagliosa. P, Casaca. W, Helou. E. S, Oliveira. M. C. F, Nonato. L. G, Similarity Preserving Snippet-Based Visualization of Web Search Results, Visualization and Computer Graphics, IEEE Transactions on, 20, 457-470, (2014).
+	\bibitem{or2} Gomez-Nieto. E, Casaca. W, Motta. D, Hartmann. I, Taubin. G, Nonato. L, Dealing with Multiple Requirements in Geometric Arrangements, Visualization and Computer Graphics, IEEE Transactions on, 1, (2015).
+	\bibitem{mcb1} T. Kuo, K. Yamamoto, Y. Matsumoto, Applying Conditional Random Fields to Japanese Morphological Analysis, Proceedings of the 2004 conference on empirical methods in natural language processing, 230-237, (2004).
+	\bibitem{hak1} 尾上洋介, 評価構造のビジュアル分析に関する研究,博士論文, 2016.
+\end{thebibliography}
+
+%======================================================================
+%		付録
+%======================================================================
+\appendix
+
+
+\end{document}
+% Local Variables:
+% fill-column: 70
+% End:

@@ -1,0 +1,151 @@
+\documentclass[syuuron]{kuee}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{kueecite}
+
+\title{評価構造における単語間の関係性可視化に関する研究}
+\author{小澤 啓太}
+\professor{小山田 耕二 教授}
+\course{京都大学大学院 工学研究科}
+\department{電気工学専攻}
+\date{平成28年2月4日}
+
+%%% 本文
+\begin{document}
+\maketitle
+\tableofcontents
+
+
+
+%%提案システム
+\chapter{提案システム}
+	\section{システム要件}
+		本節では, 評価グリッド法の専門家のインタビュー結果\cite{hak1}を通して, 評価構造分析システムの要件を分析した. 
+		以下では、インタビュー結果から得られた、評価構造分析に求められている機能を示す。
+		\subsubsection{評価構造の全体を把握する}
+			分析者はどのような単語や評価項目が評価構造内に現れているかに関心がある。
+			頻出する単語、評価項目だけでなく一度しか出現しない単語、評価項目にも予想外の発見が存在する可能性はある。
+			全体評価構造図を作成した後に、分析者は評価構造図を俯瞰し評価構造の全体像をつかむ。
+			しかし、評価構造の規模が増大するに連れて評価構造の探索にかかる時間は増加し、
+			見逃してしまう評価項目、情報が発生する可能性もある。
+			評価構造図をコンパクトに表示し、対話的な操作を可能にすることは、
+			評価構造の全体把握を行う上では重要である。
+		\subsubsection{評価項目間の関係性を把握する}
+			評価項目の上位概念、下位概念を知ることは個人が持つ価値観の因果関係を表している。
+			この因果関係は評価構造が持つ重要な情報の一つである。
+			評価項目間の関係性を知るためには、分析者は注目した評価項目と隣接する評価項目を探索する。
+			評価構造の規模が大きくなるにつれ、評価項目間の関係は複雑になり、評価項目間の関係性は把握しづらくなる。
+			そのため評価構造図の読みやすさは重要な要素であり、その関係を確認するためのインタラクションが必要となる。
+		\subsubsection{重要な項目を特定する}
+			評価構造は複数人の実験参加者が回答した評価項目が存在する。
+			この評価項目は、多くの人が共有している評価基準であり、
+			分析者にとってこの評価項目を特定することは重要な事である。
+			重要な評価項目を見つけるためには、重要な評価項目を自動的に絞り込むことや強調表示することが必要となる。
+		\subsubsection{実験参加者をグループ分けする}
+			実験参加者は異なる意見を持つグループに分けることができる場合があり、
+			分析者は実験参加者をグループ分けできるかを試す。
+			従来は、評価構造を手書きで作成しており、実験参加者が10人を超えるような
+			規模の大きい評価構造の場合、グループ分けを行うのはかなりの時間を要した。
+			そのため、実験参加者のグループ化を考慮した上で自動評価構造のレイアウトをすることが必要である。
+		\subsubsection{評価項目をグループ分けする}
+			評価構造内の評価項目をグループ分けすることは分析において必要である。
+			従来は、分析者が主観的に評価項目を分類し、グループを作成していたが、
+			分析者の主観が入る場合があり、分析者によってグループ分けの結果が異なる場合がある。
+			そのため、客観的な基準をもとにグループ分けを行う機能あ必要である。
+	\section{システム設計と実装}%%%尾上さん論文5.4が参考になるかも
+		前節で述べたシステム要件をもとに、評価構造分析システムの開発を行った。
+		本節では提案システムの設計と実装の詳細について述べる。
+		\subsection{概要}
+			図？は提案システムのスクリーンショットである。
+			提案システムは3つの要素から構成されており、それぞれ評価構造ウィンドウ、Word Cloudウィンドウ、評価項目リストウィンドウである。
+			評価構造ウィンドウでは、評価構造図を表示する。
+			このウィンドウの目的は、評価構造内の評価項目間の関係性を直接見ることである。
+			評価構造ウィンドウはWord Cloudウィンドウ、評価項目リストウィンドウと連動していて、
+			あるウィンドウでの操作が即座に他ウィンドウに反映される。
+			Word Cloudウィンドウでは提案手法を用いた評価構造内の評価項目で使用されている単語を表示する。
+			Word Cloudウィンドウでの目的は、重要な単語の発見や、単語間の概括的な関係性の発見、評価構造の概要把握が挙げられる。
+			評価項目リストウィンドウではWord Cloudウィンドウで選択した単語が使用されている評価項目を表示する。
+			評価項目リストウィンドウの目的は、利用者が単語に注目した場合の詳細な情報を示すことである。
+			
+			提案システムはHTMLやJavascriptといったWeb標準技術を用いて開発されたWebアプリケーションである。
+			また、レイアウトの一部をbootstrapを用いて実装されており、タブレット端末のような画面の小さい装置や
+			PCディスプレイ、タイルドディスプレイのような大画面好解像度での柔軟なレイアウトを可能にしている。
+			
+			システム要件と提案システムの機能は以下のように対応している。
+			\subsubsection{評価構造の全体を把握する}
+				利用者はWord Cloudウィンドウを見ることで評価構造の概要を把握することができる。
+			\subsubsection{評価項目間の関係性を把握する}
+				利用者はWord Cloudウィンドウ内の単語の位置関係から評価項目内の単語間の関係を把握することができる。
+				また、その中から注目したい単語を選択することで、注目した単語と共起する単語、評価構造内で隣接関係にある
+				単語を知ることができる。
+				また、Word Cloudウィンドウ内で単語を選択することで、評価項目リストウィンドウでは選択単語が使用されている
+				評価項目がリスト表示され、評価構造ウィンドウでは選択単語が使用されている
+				評価項目が強調される。
+			\subsubsection{重要な項目を特定する}
+				利用者はWord Cloudウィンドウ内のフォントサイズが大きい単語を見ることで評価構造内でよく使用される
+				単語を把握することができる。
+			
+			実験参加者や評価項目のグループ分けを行う機能は搭載しておらず、今後の課題とする。
+		\subsection{ユーザインタラクション}
+			提案システムでは主に2つのユーザインタラクションを搭載している。
+			1つ目はWord Cloud内単語の評価構造内での関係性を表示するための単語選択、
+			2つ目はWord Cloud内単語の評価構造内での関係性の絞り込みを行うためのリスト内チェックボックス選択である。
+			
+			1つ目の機能は、Word Cloudウィンドウで発見した注目したい単語の詳細情報を知るための機能である。
+			注目したい単語を選択することで3つのウィンドウが連動し表示画面が変化する。
+			Word Cloudウィンドウでは、選択した単語の評価構造内での関係性を表示する。
+			選択単語がと評価項目内で共起している単語が紫色に、
+			選択単語が使用されている評価項目と隣接する評価項目内の単語が青色、もしくは赤色に変化する。
+			上位概念の評価項目の単語は青色、下位概念の評価項目の単語は赤色で表示される。
+			同時に、選択単語と選択単語が使用されている評価項目と隣接する評価項目内の単語は矢印で結ぶ。
+			矢印は下位概念の単語から上位概念の単語に向けて結ばれ、単語の上位、下位関係を示す。
+			評価項目リストウィンドウでは、選択単語が使用されている評価項目を表示することで評価項目の情報を示す。
+			評価構造ウィンドウでは、選択単語が使用されている評価項目とその上位、下位概念の評価項目が強調される。
+			選択単語が使用されている評価項目は紫色、その上位、下位項目はそれぞれ青色、赤色で強調される。
+			これによって注目単語と関係をもつ評価項目の書斎を把握することができる。
+			
+			また、2つ目の機能は1つ目の機能を使用した後に使えるようになり、
+			選択単語が複数の評価項目で使用されている場合に、その中の特定の評価項目が評価構造内のどこにあるのか、
+			その上位、下位項目は何であるかを知りたい際に使用される。
+			評価項目リストウィンドウ内で、詳細を知りたい評価項目の列のチェックボックスを選択することで、
+			評価構造ウィンドウでは、選択評価項目、その上位階項目のみが強調される。
+			同時にWord Cloudウィンドウでも、選択評価項目、その上位階項目の単語のみが強調される。
+			これらのインタラクションにより利用者は注目したい情報を対話的な操作から得ることができる。
+			
+
+%======================================================================
+%		参考文献
+%======================================================================
+\bibliographystyle{kueethesis}
+\bibliography{sotsuron}
+\begin{thebibliography}{数字}
+	\bibitem{egm1} 奥西智哉, 炊飯米を生地に添加したパンの官能評価. 日本食品科学工学会誌, 56, 424-428, (2009).
+	\bibitem{egm2} 入江正和, 豚肉質の評価法. 日本養豚学会誌, 39, 221-254, (2002).
+	\bibitem{egm3} 来田宣幸, 赤井聡文. 野球における球速と球速感の関係. 日本認知心理学会発表論文集, 42-42, (2009).
+	\bibitem{egm4} 中前光弘, 順位法を用いた視覚評価の信頼性について: 順序尺度の解析と正規化順位法による尺度構成法. 日放技学誌, 56, 725-730, (2000).
+	\bibitem{egm5} 大山正, 瀧本誓, 岩澤秀紀. 順位法を用いた視覚評価の信頼性について: 順序尺度の解析と正規化順位法による尺度構成法. 行動計量学, 20, 55-64, (1993).
+	\bibitem{egm6} J. Sanui, Visualization of users’requirements: Introduction of Evaluation Grid Method, Proceedings of the 3rd Design and Decision Support System in Architecture and Urban Planning Conference, 365-374, (1996).
+	\bibitem{egm7} 讃井純一郎, 乾正雄. レパートリー・グリッド発展手法による住環境評価構造の抽出：認知心理学に基づく住環境評価に関する研究(1). 日本建築学会計画系論文報告集, 367, 15-22, (1986).
+	\bibitem{egm8} 尾上洋介, 久木元伸如, 小山田耕二. 可視化情報学会における会員満足度の因果関係分析. 可視化情報学会論文集, 34, 43-51, (2014).
+	\bibitem{egm9} 本村陽一, 金出武雄. ヒトの認知・評価構造の定量化モデリングと確率推論. 電子情報通信学会技術研究報告, 104, 25-30, (2005).
+	\bibitem{rg1} G. A. Kelly, The Psychology of Personal Constructs, 1 and 2, (1955).
+	\bibitem{net1} Y. Onoue, N. Kukimoto, N. Sakamoto, K. Koyamada, Network Coarse-Graining for Evaluation Structures, In Proc. of International Conference on Simulation Technology, 34, 447-450, (2015). 
+	\bibitem{kh1} 樋口耕一, テキスト型データの計量的分析. 理論と方法, 19, 101-115, (2004).
+	\bibitem{wg1} Riehmann. P, Gruendl. H, Potthast. M, Trenkmann. M, Stein. B, Froehlich. B, WORDGRAPH: Keyword-in-Context Visualization for NETSPEAK's Wildcard Search. Visualization and Computer Graphics, IEEE Transactions on 18.9, 1411-1423, (2012).
+	\bibitem{rwc1} Strobelt. H, Spicker. M, Stoffel. A, Keim. D, Deussen. O, Rolled‐out Wordles: A Heuristic Method for Overlap Removal of 2D Data Representatives, Computer Graphics Forum, 31, 1135-1144, (2012).
+	\bibitem{fta1} Huang. X, Lai. W, Force-transfer: a new approach to removing overlapping nodes in graph layout, Proceedings of the 26th Australasian computer science conference, 16, 349-358, (2003).
+	\bibitem{or1} Gomez-Nieto. E, San Roman. F, Pagliosa. P, Casaca. W, Helou. E. S, Oliveira. M. C. F, Nonato. L. G, Similarity Preserving Snippet-Based Visualization of Web Search Results, Visualization and Computer Graphics, IEEE Transactions on, 20, 457-470, (2014).
+	\bibitem{or2} Gomez-Nieto. E, Casaca. W, Motta. D, Hartmann. I, Taubin. G, Nonato. L, Dealing with Multiple Requirements in Geometric Arrangements, Visualization and Computer Graphics, IEEE Transactions on, 1, (2015).
+	\bibitem{mcb1} T. Kuo, K. Yamamoto, Y. Matsumoto, Applying Conditional Random Fields to Japanese Morphological Analysis, Proceedings of the 2004 conference on empirical methods in natural language processing, 230-237, (2004).
+	\bibitem{hak1} 尾上洋介, 評価構造のビジュアル分析に関する研究,博士論文, 2016.
+\end{thebibliography}
+
+%======================================================================
+%		付録
+%======================================================================
+\appendix
+
+
+\end{document}
+% Local Variables:
+% fill-column: 70
+% End:
