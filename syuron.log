@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  7 JAN 2016 18:56
+This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  13 JAN 2016 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -153,26 +153,32 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 119.
 [4
 
-] [5] [6] [7] [8]
+] [5] [6]
+Overfull \hbox (3.12883pt too wide) in paragraph at lines 220--225
+\JY1/mc/m/n/12 スタ ー分析や共起ネ ッ トワ ークを行う手法 、 内容が似た文書の群
+を探すクラスタ ー
+ []
+
+[7] [8]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 254.
- [9] [10]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 264.
+ [9] [10] [11]
 第{3}章.
-[11
+[12
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 327.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 338.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 327.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 338.
 
-Overfull \hbox (2.08513pt too wide) in paragraph at lines 328--335
+Overfull \hbox (2.08513pt too wide) in paragraph at lines 339--346
 []\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 で表す\OML/cmm/m/it/12 :$ $n[]; w[]\JY1/mc/
 m/n/12 はそれぞれ頂点\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 単語を表し\OML/cmm/m/it/
 12 ; n[] \OMS/cmsy/m/n/12 2
  []
 
-[12] [13] [14]
+[13] [14] [15]
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^81 in font cmr12!
 Missing character: There is no ^^84 in font cmr12!
@@ -181,13 +187,7 @@ Missing character: There is no ^^81 in font cmr12!
 Missing character: There is no ^^a1 in font cmr12!
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 450.
-
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 450.
-
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 450.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 461.
 
 
 LaTeX Font Warning: Command \sl invalid in math mode on input line 461.
@@ -196,92 +196,92 @@ LaTeX Font Warning: Command \sl invalid in math mode on input line 461.
 LaTeX Font Warning: Command \sl invalid in math mode on input line 461.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 466.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 472.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 468.
-
-[15]
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 470.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 472.
 
 
 LaTeX Font Warning: Command \sl invalid in math mode on input line 477.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 480.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 479.
 
+[16]
 
-Overfull \hbox (2.3312pt too wide) in paragraph at lines 480--484
-\JY1/mc/m/n/12 最大利用エネルギー項であり\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 この
-関数の目的は指定領域を細胞で最大限満たすこ
- []
-
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 485.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 481.
 
 
 LaTeX Font Warning: Command \sl invalid in math mode on input line 488.
 
 
-Overfull \hbox (2.3312pt too wide) in paragraph at lines 486--489
+LaTeX Font Warning: Command \sl invalid in math mode on input line 491.
+
+
+Overfull \hbox (2.3312pt too wide) in paragraph at lines 491--495
+\JY1/mc/m/n/12 最大利用エネルギー項であり\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 この
+関数の目的は指定領域を細胞で最大限満たすこ
+ []
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 496.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 499.
+
+
+Overfull \hbox (2.3312pt too wide) in paragraph at lines 497--500
 \JY1/mc/m/n/12 ど小さくなり\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 指定領域の短辺の長
 さと最大の細胞の辺の長さが等しい場合に最小
  []
 
-[16] [17] [18]
-Overfull \hbox (21.2818pt too wide) in paragraph at lines 573--574
+[17] [18] [19]
+Overfull \hbox (21.2818pt too wide) in paragraph at lines 584--585
 []$\JY1/mc/m/n/12 問題 \OML/cmm/m/it/12 P[]\JY1/mc/m/n/12 を， 部分問題 \OML/cm
 m/m/it/12 P[]; :::; P[]\JY1/mc/m/n/12 に分解し\OML/cmm/m/it/12 ; A \OT1/cmr/m/n
 /12 = (\OML/cmm/m/it/12 A \OMS/cmsy/m/n/12 ^^@ []\OT1/cmr/m/n/12 ) \JY1/mc/m/n/
 12 ∪ []\OML/cmm/m/it/12 P[]; :::; P[][] \JY1/mc/m/n/12 と
  []
 
-[19]
+[20]
 第{4}章.
 
-Overfull \hbox (3.51187pt too wide) in paragraph at lines 587--594
+Overfull \hbox (3.51187pt too wide) in paragraph at lines 598--605
 []\JY1/mc/m/n/12 分析者はどのような単語や評価項目が評価構造内に現れているかに関
 心がある 。
  []
 
-[20
+[21
 
 ]
-Overfull \hbox (0.30034pt too wide) in paragraph at lines 617--619
+Overfull \hbox (0.30034pt too wide) in paragraph at lines 628--630
 []\JY1/mc/m/n/12 前節で述べたシステム要件をもとに 、 評価構造分析システムの開発
 を行 っ た 。 本
  []
 
-[21] [22] [23]
+[22] [23] [24] [25]
 第{5}章.
+[26
 
-Overfull \hbox (0.53815pt too wide) in paragraph at lines 694--699
-\JY1/mc/m/n/12 実験内容はシステム要件で述べられた以下の三つの項目を考慮して作成
-を行 っ た 。
- []
-
-[24
-
-] [25] [26]
+] [27] [28] [29]
 第{6}章.
-[27
+[30
 
 ]
 第{7}章.
-[28
+[31
 
 ]
 第{8}章.
-[29
+[32
 
 ]
 No file syuron.bbl.
-[30
+[33
 
-] [31
+] [34
 
-] AED kuee: Processing end Figures and Tables [32] (./syuron.fff
+] AED kuee: Processing end Figures and Tables [35] (./syuron.fff
 File: ./png/es1.png Graphic file (type bmp)
 
 <./png/es1.png>
@@ -301,7 +301,7 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 34--35
  [] 
  []
 
-[33] [34]) (./syuron.aux) ) 
+[36] [37]) (./syuron.aux) ) 
 Here is how much of TeX's memory you used:
  1045 strings out of 493771
  12973 string characters out of 6153132
@@ -311,4 +311,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  28i,14n,24p,291b,398s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on syuron.dvi (37 pages, 113492 bytes).
+Output written on syuron.dvi (40 pages, 120772 bytes).
