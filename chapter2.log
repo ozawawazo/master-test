@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  10 JAN 2016 19:19
+This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  19 JAN 2016 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -134,47 +134,58 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
  [1
 
 ] [2] [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 105.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 104.
 
  (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 105.
+(Font)              <7> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 105.
+(Font)              <5> on input line 104.
 
-Overfull \hbox (3.12883pt too wide) in paragraph at lines 122--127
+Overfull \hbox (3.12883pt too wide) in paragraph at lines 121--127
 \JY1/mc/m/n/12 スタ ー分析や共起ネ ッ トワ ークを行う手法 、 内容が似た文書の群
 を探すクラスタ ー
  []
 
 [4]
 
-LaTeX Warning: Reference `fig:es2' on page 5 undefined on input line 138.
+LaTeX Warning: Reference `fig:es2' on page 5 undefined on input line 137.
 
 [5]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 166.
- [6]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 167.
+ [6] [7]
 No file chapter2.bbl.
-[7] [8] [9
+[8] [9
 
-] AED kuee: Processing end Figures and Tables [10] (./chapter2.fff)
+]
+Missing character: There is no ^^e2 in font cmr12!
+Missing character: There is no ^^80 in font cmr12!
+Missing character: There is no ^^93 in font cmr12!
+Missing character: There is no ^^e2 in font cmr12!
+Missing character: There is no ^^80 in font cmr12!
+Missing character: There is no ^^93 in font cmr12!
+ [10]
+Missing character: There is no ^^e2 in font cmr12!
+Missing character: There is no ^^80 in font cmr12!
+Missing character: There is no ^^93 in font cmr12!
+ AED kuee: Processing end Figures and Tables [11] (./chapter2.fff)
 (./chapter2.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1012 strings out of 493771
- 12582 string characters out of 6153132
+ 1017 strings out of 493771
+ 12609 string characters out of 6153132
  71540 words of memory out of 5000000
- 4532 multiletter control sequences out of 15000+600000
+ 4537 multiletter control sequences out of 15000+600000
  17108 words of font info for 66 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 28i,8n,24p,293b,342s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 28i,8n,24p,292b,342s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on chapter2.dvi (12 pages, 40276 bytes).
+Output written on chapter2.dvi (13 pages, 42108 bytes).
