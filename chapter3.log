@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  20 JAN 2016 15:57
+This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  25 JAN 2016 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./chapter5.tex
-(./chapter5.tex
+**./chapter3.tex
+(./chapter3.tex
 pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 2)
 Babel <3.9m> and hyphenation patterns for 79 languages loaded.
 (./kuee.cls
@@ -74,8 +74,8 @@ Package: kueecite 2004/04/20  v 3.8
 LaTeX Warning: Unused global option(s):
     [syuuron].
 
-(./chapter5.aux)
-\openout1 = `chapter5.aux'.
+(./chapter3.aux)
+\openout1 = `chapter3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
@@ -109,14 +109,14 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 15.
-(./chapter5.toc
+(./chapter3.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
 )
 \tf@toc=\write4
-\openout4 = `chapter5.toc'.
+\openout4 = `chapter3.toc'.
 
  [1
 
@@ -124,40 +124,111 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 ]
 \clearpage
 第{1}章.
-\openout3 = `chapter5.fff'.
+\openout3 = `chapter3.fff'.
 
-(chapter5.fff)
+(chapter3.fff)
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 21.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 22.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 22.
  [1
 
-] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 97.
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
  (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 97.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
 
-[3]
-No file chapter5.bbl.
-[4] [5
+[2] [3] [4]
+Missing character: There is no ^^e2 in font cmr12!
+Missing character: There is no ^^81 in font cmr12!
+Missing character: There is no ^^84 in font cmr12!
+Missing character: There is no ^^e2 in font cmr12!
+Missing character: There is no ^^81 in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
 
-] AED kuee: Processing end Figures and Tables [6] (./chapter5.fff)
-(./chapter5.aux) ) 
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 182.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 182.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 182.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 193.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 193.
+
+[5]
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 198.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 200.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 202.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 209.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 212.
+
+
+Overfull \hbox (2.3312pt too wide) in paragraph at lines 212--216
+\JY1/mc/m/n/12 最大利用エネルギー項であり\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 この
+関数の目的は指定領域を細胞で最大限満たすこ
+ []
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 217.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 220.
+
+
+Overfull \hbox (2.3312pt too wide) in paragraph at lines 218--221
+\JY1/mc/m/n/12 ど小さくなり\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 指定領域の短辺の長
+さと最大の細胞の辺の長さが等しい場合に最小
+ []
+
+[6] [7]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 274.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 274.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 274.
+ [8]
+Overfull \hbox (21.2818pt too wide) in paragraph at lines 305--306
+[]$\JY1/mc/m/n/12 問題 \OML/cmm/m/it/12 P[]\JY1/mc/m/n/12 を， 部分問題 \OML/cm
+m/m/it/12 P[]; :::; P[]\JY1/mc/m/n/12 に分解し\OML/cmm/m/it/12 ; A \OT1/cmr/m/n
+/12 = (\OML/cmm/m/it/12 A \OMS/cmsy/m/n/12 ^^@ []\OT1/cmr/m/n/12 ) \JY1/mc/m/n/
+12 ∪ []\OML/cmm/m/it/12 P[]; :::; P[][] \JY1/mc/m/n/12 と
+ []
+
+No file chapter3.bbl.
+[9] [10
+
+] AED kuee: Processing end Figures and Tables [11] (./chapter3.fff)
+(./chapter3.aux) ) 
 Here is how much of TeX's memory you used:
- 1010 strings out of 493771
- 12570 string characters out of 6153132
- 70540 words of memory out of 5000000
- 4531 multiletter control sequences out of 15000+600000
- 17689 words of font info for 68 fonts, out of 8000000 for 9000
+ 1026 strings out of 493771
+ 12749 string characters out of 6153132
+ 73540 words of memory out of 5000000
+ 4541 multiletter control sequences out of 15000+600000
+ 19426 words of font info for 74 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 28i,8n,24p,293b,342s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 28i,14n,24p,293b,342s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on chapter5.dvi (8 pages, 21084 bytes).
+Output written on chapter3.dvi (13 pages, 39500 bytes).

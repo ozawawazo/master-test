@@ -7,15 +7,15 @@
 \contentsline {section}{\numberline {3.1}使用データ}{12}
 \contentsline {section}{\numberline {3.2}座標計算}{13}
 \contentsline {subsection}{\numberline {3.2.1}単語間距離行列の作成}{13}
-\contentsline {subsubsection}{出現行列}{13}
-\contentsline {subsubsection}{頂点間距離行列}{14}
+\contentsline {subsubsection}{ノード間距離行列}{13}
+\contentsline {subsubsection}{出現行列}{14}
 \contentsline {subsubsection}{重み行列}{14}
 \contentsline {subsection}{\numberline {3.2.2}次元削減}{15}
-\contentsline {subsection}{\numberline {3.2.3}重複阻止}{15}
+\contentsline {subsection}{\numberline {3.2.3}重複阻止}{16}
 \contentsline {subsubsection}{目的関数}{16}
 \contentsline {paragraph}{単語集約エネルギー項}{17}
 \contentsline {paragraph}{指定領域最大利用エネルギー項}{17}
-\contentsline {subsubsection}{制約条件}{17}
+\contentsline {subsubsection}{制約条件}{18}
 \contentsline {section}{\numberline {3.3}計算方法}{19}
 \contentsline {chapter}{\numberline {第{4}章}提案システム }{21}
 \contentsline {section}{\numberline {4.1}システム要件}{21}
@@ -40,14 +40,21 @@
 \contentsline {section}{\numberline {5.3}ユーザーフィードバック}{28}
 \contentsline {chapter}{\numberline {第{6}章}実験結果 }{30}
 \contentsline {section}{\numberline {6.1}比較実験}{30}
-\contentsline {section}{\numberline {6.2}ケーススタディ}{30}
-\contentsline {section}{\numberline {6.3}ユーザーフィードバック}{30}
-\contentsline {chapter}{\numberline {第{7}章}考察 }{31}
-\contentsline {section}{\numberline {7.1}比較実験}{31}
-\contentsline {section}{\numberline {7.2}ケーススタディ}{31}
-\contentsline {section}{\numberline {7.3}ユーザーフィードバック}{31}
-\contentsline {chapter}{\numberline {第{8}章}結論と課題 }{32}
-\contentsline {section}{\numberline {8.1}結論}{32}
-\contentsline {section}{\numberline {8.2}課題}{32}
-\contentsline {chapter}{謝 辞}{33}
-\contentsline {chapter}{参 考 文 献}{34}
+\contentsline {section}{\numberline {6.2}ケーススタディ}{31}
+\contentsline {section}{\numberline {6.3}ユーザーフィードバック}{32}
+\contentsline {subsection}{\numberline {6.3.1}5段階評価アンケート結果}{32}
+\contentsline {subsection}{\numberline {6.3.2}自由記述アンケート結果}{32}
+\contentsline {chapter}{\numberline {第{7}章}考察 }{34}
+\contentsline {section}{\numberline {7.1}比較実験}{34}
+\contentsline {section}{\numberline {7.2}ケーススタディ}{35}
+\contentsline {paragraph}{有効性}{35}
+\contentsline {paragraph}{操作性}{35}
+\contentsline {paragraph}{改善点}{35}
+\contentsline {section}{\numberline {7.3}ユーザーフィードバック}{36}
+\contentsline {subsection}{\numberline {7.3.1}5段階評価アンケート結果}{36}
+\contentsline {subsection}{\numberline {7.3.2}自由記述アンケート結果}{36}
+\contentsline {chapter}{\numberline {第{8}章}結論と課題 }{38}
+\contentsline {section}{\numberline {8.1}結論}{38}
+\contentsline {section}{\numberline {8.2}課題}{39}
+\contentsline {chapter}{謝 辞}{41}
+\contentsline {chapter}{参 考 文 献}{42}
