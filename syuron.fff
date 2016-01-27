@@ -43,25 +43,265 @@
 \addtocounter{chapter}{-1}
 \stepcounter{chapter}
  
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/egm1.JPG}
+}
+\end{center}
+\caption{評価グリッド法の手順\cite{egm6}}
+   \label{fig:egm1}
+\end{figure*}
+\kueeseparator
+ 
 \clearpage
 \setcounter{chapter}{3}
 \addtocounter{chapter}{-1}
 \stepcounter{chapter}
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/met1.JPG}
+}
+\end{center}
+\caption{提案手法による可視化手順}
+   \label{fig:met1}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/met2.JPG}
+}
+\end{center}
+\caption{3行列の例}
+   \label{fig:met2}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/met3.JPG}
+}
+\end{center}
+\caption{式(3.6)で使用される変数の例}
+   \label{fig:met3}
+\end{figure*}
+\kueeseparator
  
 \clearpage
 \setcounter{chapter}{4}
 \addtocounter{chapter}{-1}
 \stepcounter{chapter}
  
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/sys1.JPG}
+}
+\end{center}
+\caption{提案システムの概要}
+   \label{fig:sys1}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/sys2.JPG}
+}
+\end{center}
+\caption{提案システムの概要2}
+   \label{fig:sys2}
+\end{figure*}
+\kueeseparator
+ 
 \clearpage
 \setcounter{chapter}{5}
 \addtocounter{chapter}{-1}
 \stepcounter{chapter}
  
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/que1.JPG}
+}
+\end{center}
+\caption{ネットワーク表示によるタスク1の例}
+   \label{fig:que1}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/que2.JPG}
+}
+\end{center}
+\caption{提案手法を用いたWord Cloud表示によるタスク2の例}
+   \label{fig:que2}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/que3.JPG}
+}
+\end{center}
+\caption{単語の配置座標をランダムに決定したWord Cloud表示によるタスク3の例}
+   \label{fig:que3}
+\end{figure*}
+\kueeseparator
+ 
 \clearpage
 \setcounter{chapter}{6}
 \addtocounter{chapter}{-1}
 \stepcounter{chapter}
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res1.JPG}
+}
+\end{center}
+\caption{タスク1の所要時間}
+   \label{fig:res1}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res2.JPG}
+}
+\end{center}
+\caption{タスク2の所要時間}
+   \label{fig:res2}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res3.JPG}
+}
+\end{center}
+\caption{タスク3の所要時間}
+   \label{fig:res3}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res4.JPG}
+}
+\end{center}
+\caption{タスク1の平均正答率}
+   \label{fig:res4}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res5.JPG}
+}
+\end{center}
+\caption{タスク2の平均正答率}
+   \label{fig:res5}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res6.JPG}
+}
+\end{center}
+\caption{タスク3の平均正答率}
+   \label{fig:res6}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res7.JPG}
+}
+\end{center}
+\caption{5段階評価アンケート結果1}
+   \label{fig:res7}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res8.JPG}
+}
+\end{center}
+\caption{5段階評価アンケート結果2}
+   \label{fig:res8}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res9.JPG}
+}
+\end{center}
+\caption{5段階評価アンケート結果3}
+   \label{fig:res9}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/cas1.JPG}
+}
+\end{center}
+\caption{注目単語の詳細情報の探索}
+   \label{fig:cas1}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/cas2.JPG}
+}
+\end{center}
+\caption{注目評価項目の上位及び下位の評価項目探索}
+   \label{fig:cas2}
+\end{figure*}
+\kueeseparator
  
 \clearpage
 \setcounter{chapter}{7}

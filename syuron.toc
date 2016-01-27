@@ -35,9 +35,9 @@
 \contentsline {subsection}{\numberline {5.1.1}比較対象}{26}
 \contentsline {subsection}{\numberline {5.1.2}実験データ}{26}
 \contentsline {subsection}{\numberline {5.1.3}実験内容}{27}
-\contentsline {subsection}{\numberline {5.1.4}実験手順}{27}
+\contentsline {subsection}{\numberline {5.1.4}実験手順}{28}
 \contentsline {section}{\numberline {5.2}ケーススタディ}{28}
-\contentsline {section}{\numberline {5.3}ユーザーフィードバック}{28}
+\contentsline {section}{\numberline {5.3}ユーザーフィードバック}{29}
 \contentsline {chapter}{\numberline {第{6}章}実験結果 }{30}
 \contentsline {section}{\numberline {6.1}比較実験}{30}
 \contentsline {section}{\numberline {6.2}ケーススタディ}{31}
