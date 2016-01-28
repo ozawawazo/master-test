@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  27 JAN 2016 20:36
+This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  28 JAN 2016 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -393,8 +393,19 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 191--192
  [] 
  []
 
+
+LaTeX Warning: Text page 53 contains only floats.
+
+[53
+
+
+
+
+
+
+]
 File: ./png/res3.JPG Graphic file (type bmp)
-<./png/res3.JPG>
+ <./png/res3.JPG>
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 203--204
  [] 
  []
@@ -405,8 +416,12 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 215--216
  [] 
  []
 
+
+LaTeX Warning: Text page 54 contains only floats.
+
+[54]
 File: ./png/res5.JPG Graphic file (type bmp)
-<./png/res5.JPG>
+ <./png/res5.JPG>
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 227--228
  [] 
  []
@@ -417,8 +432,12 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 239--240
  [] 
  []
 
+
+LaTeX Warning: Text page 55 contains only floats.
+
+[55]
 File: ./png/res7.JPG Graphic file (type bmp)
-<./png/res7.JPG>
+ <./png/res7.JPG>
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 251--252
  [] 
  []
@@ -429,8 +448,12 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 263--264
  [] 
  []
 
+
+LaTeX Warning: Text page 56 contains only floats.
+
+[56]
 File: ./png/res9.JPG Graphic file (type bmp)
-<./png/res9.JPG>
+ <./png/res9.JPG>
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 275--276
  [] 
  []
@@ -447,7 +470,7 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 299--300
  [] 
  []
 
-[53] [54] [55] [56] [57] [58] [59]) (./syuron.aux) ) 
+[57] [58]) (./syuron.aux) ) 
 Here is how much of TeX's memory you used:
  1132 strings out of 493771
  14292 string characters out of 6153132
@@ -457,4 +480,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  28i,14n,24p,291b,398s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on syuron.dvi (62 pages, 169636 bytes).
+Output written on syuron.dvi (61 pages, 169556 bytes).
