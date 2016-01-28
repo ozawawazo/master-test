@@ -40,9 +40,9 @@
 \contentsline {section}{\numberline {5.3}ユーザーフィードバック}{29}
 \contentsline {chapter}{\numberline {第{6}章}実験結果 }{30}
 \contentsline {section}{\numberline {6.1}比較実験}{30}
-\contentsline {section}{\numberline {6.2}ケーススタディ}{31}
-\contentsline {section}{\numberline {6.3}ユーザーフィードバック}{32}
-\contentsline {subsection}{\numberline {6.3.1}5段階評価アンケート結果}{32}
+\contentsline {section}{\numberline {6.2}ケーススタディ}{30}
+\contentsline {section}{\numberline {6.3}ユーザーフィードバック}{31}
+\contentsline {subsection}{\numberline {6.3.1}5段階評価アンケート結果}{31}
 \contentsline {subsection}{\numberline {6.3.2}自由記述アンケート結果}{32}
 \contentsline {chapter}{\numberline {第{7}章}考察 }{34}
 \contentsline {section}{\numberline {7.1}比較実験}{34}

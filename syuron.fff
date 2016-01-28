@@ -137,7 +137,7 @@
 \includegraphics[width=\linewidth]{./png/que1.JPG}
 }
 \end{center}
-\caption{ネットワーク表示によるタスク1の例}
+\caption{ネットワーク図によるタスク1の例}
    \label{fig:que1}
 \end{figure*}
 \kueeseparator
@@ -149,7 +149,7 @@
 \includegraphics[width=\linewidth]{./png/que2.JPG}
 }
 \end{center}
-\caption{提案手法を用いたWord Cloud表示によるタスク2の例}
+\caption{NWord Cloudによるタスク2の例}
    \label{fig:que2}
 \end{figure*}
 \kueeseparator
@@ -161,7 +161,7 @@
 \includegraphics[width=\linewidth]{./png/que3.JPG}
 }
 \end{center}
-\caption{単語の配置座標をランダムに決定したWord Cloud表示によるタスク3の例}
+\caption{RWord Cloudによるタスク3の例}
    \label{fig:que3}
 \end{figure*}
 \kueeseparator
@@ -307,6 +307,18 @@
 \setcounter{chapter}{7}
 \addtocounter{chapter}{-1}
 \stepcounter{chapter}
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res10.JPG}
+}
+\end{center}
+\caption{タスク2のタスク所要時間の平均順位}
+   \label{fig:res10}
+\end{figure*}
+\kueeseparator
  
 \clearpage
 \setcounter{chapter}{8}

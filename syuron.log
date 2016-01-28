@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  28 JAN 2016 11:56
+This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  28 JAN 2016 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -145,12 +145,6 @@ Overfull \hbox (3.19481pt too wide) in paragraph at lines 59--75
 の頻度と ， 評
  []
 
-
-Overfull \hbox (9.50221pt too wide) in paragraph at lines 59--75
-\JY1/mc/m/n/12 提案手法では ， 評価構造内の評価項目の文章を形態素解析し ， 抽出
-した単語を \OT1/cmr/m/n/12 Word
- []
-
 [2] [3]
 第{2}章.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
@@ -254,6 +248,13 @@ Overfull \hbox (0.56903pt too wide) in paragraph at lines 657--664
 
 ] [22] [23] [24] [25]
 第{5}章.
+
+Overfull \hbox (4.54852pt too wide) in paragraph at lines 786--793
+\JY1/mc/m/n/12 の中で\OT1/cmr/m/n/12 , \JY1/mc/m/n/12 ネ ッ トワ ーク図と \OT1/
+cmr/m/n/12 Word Cloud \JY1/mc/m/n/12 間の連携部分以外は搭載されている\OT1/cmr/m
+/n/12 . NWord
+ []
+
 [26
 
 ] [27] [28] [29]
@@ -261,21 +262,21 @@ Overfull \hbox (0.56903pt too wide) in paragraph at lines 657--664
 [30
 
 ] [31]
-Overfull \hbox (0.2959pt too wide) in paragraph at lines 961--962
+Overfull \hbox (0.2959pt too wide) in paragraph at lines 960--961
 []\JY1/mc/m/n/12 ネ ッ トワ ーク表示では拡大と移動を行わなければ文章を読み取る
 ことができ
  []
 
 
-Overfull \hbox (3.19037pt too wide) in paragraph at lines 962--963
+Overfull \hbox (3.19037pt too wide) in paragraph at lines 961--962
 \JY1/mc/m/n/12 置されていることが多いので単語間の関係性が読み取りやすいという点
 で優
  []
 
 [32]
-Overfull \hbox (3.19037pt too wide) in paragraph at lines 969--970
-[]\JY1/mc/m/n/12 空白部分があるので全体的に文字サイズを少し大きく出来るのではな
-いかと
+Overfull \hbox (0.2959pt too wide) in paragraph at lines 968--969
+[]\JY1/mc/m/n/12 空白部分があるので全体的にフ ォ ントサイズを少し大きく出来るの
+ではない
  []
 
 [33]
@@ -296,14 +297,13 @@ No file syuron.bbl.
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^80 in font cmr12!
 Missing character: There is no ^^93 in font cmr12!
- [43]
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^80 in font cmr12!
 Missing character: There is no ^^93 in font cmr12!
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^80 in font cmr12!
 Missing character: There is no ^^93 in font cmr12!
- AED kuee: Processing end Figures and Tables [44] (./syuron.fff
+ [43] AED kuee: Processing end Figures and Tables [44] (./syuron.fff
 File: ./png/es1.JPG Graphic file (type bmp)
 
 <./png/es1.JPG>
@@ -433,12 +433,8 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 239--240
  [] 
  []
 
-
-LaTeX Warning: Text page 55 contains only floats.
-
-[55]
 File: ./png/res7.JPG Graphic file (type bmp)
- <./png/res7.JPG>
+<./png/res7.JPG>
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 251--252
  [] 
  []
@@ -449,12 +445,8 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 263--264
  [] 
  []
 
-
-LaTeX Warning: Text page 56 contains only floats.
-
-[56]
 File: ./png/res9.JPG Graphic file (type bmp)
- <./png/res9.JPG>
+<./png/res9.JPG>
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 275--276
  [] 
  []
@@ -471,14 +463,21 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 299--300
  [] 
  []
 
-[57] [58]) (./syuron.aux) ) 
+[55] [56] [57] [58]
+File: ./png/res10.JPG Graphic file (type bmp)
+ <./png/res10.JPG>
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 316--317
+ [] 
+ []
+
+[59]) (./syuron.aux) ) 
 Here is how much of TeX's memory you used:
- 1130 strings out of 493771
- 14282 string characters out of 6153132
+ 1134 strings out of 493771
+ 14350 string characters out of 6153132
  73540 words of memory out of 5000000
- 4618 multiletter control sequences out of 15000+600000
+ 4621 multiletter control sequences out of 15000+600000
  19426 words of font info for 74 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 28i,14n,24p,291b,398s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 28i,14n,24p,283b,398s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on syuron.dvi (61 pages, 169224 bytes).
+Output written on syuron.dvi (62 pages, 168448 bytes).
