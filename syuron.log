@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  28 JAN 2016 11:09
+This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  28 JAN 2016 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -292,10 +292,11 @@ No file syuron.bbl.
 
 ] [42
 
-] [43]
+]
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^80 in font cmr12!
 Missing character: There is no ^^93 in font cmr12!
+ [43]
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^80 in font cmr12!
 Missing character: There is no ^^93 in font cmr12!
@@ -303,9 +304,9 @@ Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^80 in font cmr12!
 Missing character: There is no ^^93 in font cmr12!
  AED kuee: Processing end Figures and Tables [44] (./syuron.fff
-File: ./png/es1.png Graphic file (type bmp)
+File: ./png/es1.JPG Graphic file (type bmp)
 
-<./png/es1.png>
+<./png/es1.JPG>
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 10--11
  [] 
  []
@@ -472,12 +473,12 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 299--300
 
 [57] [58]) (./syuron.aux) ) 
 Here is how much of TeX's memory you used:
- 1132 strings out of 493771
- 14292 string characters out of 6153132
+ 1130 strings out of 493771
+ 14282 string characters out of 6153132
  73540 words of memory out of 5000000
- 4619 multiletter control sequences out of 15000+600000
+ 4618 multiletter control sequences out of 15000+600000
  19426 words of font info for 74 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  28i,14n,24p,291b,398s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on syuron.dvi (61 pages, 169556 bytes).
+Output written on syuron.dvi (61 pages, 169224 bytes).
