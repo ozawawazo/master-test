@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  28 JAN 2016 22:51
+This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  30 JAN 2016 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -127,16 +127,16 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 \openout3 = `syuron.fff'.
 
 (syuron.fff)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
  (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 41.
+(Font)              <7> on input line 40.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 41.
+(Font)              <5> on input line 40.
  [1
 
 ]
@@ -151,26 +151,29 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 127.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 127.
+Missing character: There is no ^^ef in font cmr12!
+Missing character: There is no ^^bd in font cmr12!
+Missing character: There is no ^^a5 in font cmr12!
 [4
 
 ] [5] [6]
-Overfull \hbox (0.30896pt too wide) in paragraph at lines 227--233
+Overfull \hbox (0.30896pt too wide) in paragraph at lines 238--244
 \JY1/mc/m/n/12 スタ ー分析や共起ネ ッ トワ ークを行う手法\OT1/cmr/m/n/12 , \JY1
 /mc/m/n/12 内容が似た文書の群を探すクラスタ ー
  []
 
 [7] [8]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 273.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 287.
  [9] [10] [11]
 第{3}章.
 [12
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 356.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 370.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 356.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 370.
  [13] [14] [15]
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^81 in font cmr12!
@@ -180,56 +183,56 @@ Missing character: There is no ^^81 in font cmr12!
 Missing character: There is no ^^a1 in font cmr12!
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 493.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 507.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 493.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 507.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 493.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 507.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 504.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 518.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 504.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 518.
 
 [16]
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 509.
-
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 511.
-
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 513.
-
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 520.
-
 
 LaTeX Font Warning: Command \sl invalid in math mode on input line 523.
 
 
-Overfull \hbox (2.3312pt too wide) in paragraph at lines 523--527
+LaTeX Font Warning: Command \sl invalid in math mode on input line 525.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 527.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 534.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 537.
+
+
+Overfull \hbox (2.3312pt too wide) in paragraph at lines 537--541
 \JY1/mc/m/n/12 最大利用エネルギー項であり\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 この
 関数の目的は指定領域を細胞で最大限満たすこ
  []
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 528.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 542.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 531.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 545.
 
 
-Overfull \hbox (2.3312pt too wide) in paragraph at lines 529--532
+Overfull \hbox (2.3312pt too wide) in paragraph at lines 543--546
 \JY1/mc/m/n/12 ど小さくなり\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 指定領域の短辺の長
 さと最大の細胞の辺の長さが等しい場合に最小
  []
 
 [17] [18] [19]
-Overfull \hbox (21.2818pt too wide) in paragraph at lines 616--617
+Overfull \hbox (21.2818pt too wide) in paragraph at lines 630--631
 []$\JY1/mc/m/n/12 問題 \OML/cmm/m/it/12 P[]\JY1/mc/m/n/12 を， 部分問題 \OML/cm
 m/m/it/12 P[]; :::; P[]\JY1/mc/m/n/12 に分解し\OML/cmm/m/it/12 ; A \OT1/cmr/m/n
 /12 = (\OML/cmm/m/it/12 A \OMS/cmsy/m/n/12 ^^@ []\OT1/cmr/m/n/12 ) \JY1/mc/m/n/
@@ -239,7 +242,7 @@ m/m/it/12 P[]; :::; P[]\JY1/mc/m/n/12 に分解し\OML/cmm/m/it/12 ; A \OT1/cmr/
 [20]
 第{4}章.
 
-Overfull \hbox (0.56903pt too wide) in paragraph at lines 657--664
+Overfull \hbox (0.56903pt too wide) in paragraph at lines 671--678
 []\JY1/mc/m/n/12 分析者はどのような単語や評価項目が評価構造内に現れているかに関
 心がある\OT1/cmr/m/n/12 .
  []
@@ -249,7 +252,7 @@ Overfull \hbox (0.56903pt too wide) in paragraph at lines 657--664
 ] [22] [23] [24] [25]
 第{5}章.
 
-Overfull \hbox (4.54852pt too wide) in paragraph at lines 786--793
+Overfull \hbox (4.54852pt too wide) in paragraph at lines 800--807
 \JY1/mc/m/n/12 の中で\OT1/cmr/m/n/12 , \JY1/mc/m/n/12 ネ ッ トワ ーク図と \OT1/
 cmr/m/n/12 Word Cloud \JY1/mc/m/n/12 間の連携部分以外は搭載されている\OT1/cmr/m
 /n/12 . NWord
@@ -262,19 +265,19 @@ cmr/m/n/12 Word Cloud \JY1/mc/m/n/12 間の連携部分以外は搭載されて�
 [30
 
 ] [31]
-Overfull \hbox (0.2959pt too wide) in paragraph at lines 960--961
+Overfull \hbox (0.2959pt too wide) in paragraph at lines 974--975
 []\JY1/mc/m/n/12 ネ ッ トワ ーク表示では拡大と移動を行わなければ文章を読み取る
 ことができ
  []
 
 
-Overfull \hbox (3.19037pt too wide) in paragraph at lines 961--962
+Overfull \hbox (3.19037pt too wide) in paragraph at lines 975--976
 \JY1/mc/m/n/12 置されていることが多いので単語間の関係性が読み取りやすいという点
 で優
  []
 
 [32]
-Overfull \hbox (0.2959pt too wide) in paragraph at lines 968--969
+Overfull \hbox (0.2959pt too wide) in paragraph at lines 982--983
 []\JY1/mc/m/n/12 空白部分があるので全体的にフ ォ ントサイズを少し大きく出来るの
 ではない
  []
@@ -293,17 +296,7 @@ No file syuron.bbl.
 
 ] [42
 
-]
-Missing character: There is no ^^e2 in font cmr12!
-Missing character: There is no ^^80 in font cmr12!
-Missing character: There is no ^^93 in font cmr12!
-Missing character: There is no ^^e2 in font cmr12!
-Missing character: There is no ^^80 in font cmr12!
-Missing character: There is no ^^93 in font cmr12!
-Missing character: There is no ^^e2 in font cmr12!
-Missing character: There is no ^^80 in font cmr12!
-Missing character: There is no ^^93 in font cmr12!
- [43] AED kuee: Processing end Figures and Tables [44] (./syuron.fff
+] [43] AED kuee: Processing end Figures and Tables [44] (./syuron.fff
 File: ./png/es1.JPG Graphic file (type bmp)
 
 <./png/es1.JPG>
@@ -472,12 +465,12 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 316--317
 
 [59]) (./syuron.aux) ) 
 Here is how much of TeX's memory you used:
- 1134 strings out of 493771
- 14350 string characters out of 6153132
+ 1137 strings out of 493771
+ 14368 string characters out of 6153132
  73540 words of memory out of 5000000
- 4621 multiletter control sequences out of 15000+600000
+ 4624 multiletter control sequences out of 15000+600000
  19426 words of font info for 74 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 28i,14n,24p,283b,398s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 28i,14n,24p,289b,398s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on syuron.dvi (62 pages, 168448 bytes).
+Output written on syuron.dvi (62 pages, 168940 bytes).
