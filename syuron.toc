@@ -1,22 +1,21 @@
 \contentsline {chapter}{\numberline {第{1}章}序論 }{1}
-\contentsline {chapter}{\numberline {第{2}章}関連研究 }{4}
-\contentsline {section}{\numberline {2.1}評価構造と評価グリッド法}{4}
-\contentsline {section}{\numberline {2.2}テキストデータ分析}{7}
-\contentsline {section}{\numberline {2.3}重複阻止}{9}
-\contentsline {chapter}{\numberline {第{3}章}提案手法 }{12}
-\contentsline {section}{\numberline {3.1}使用データ}{12}
-\contentsline {section}{\numberline {3.2}座標計算}{13}
-\contentsline {subsection}{\numberline {3.2.1}単語間距離行列の作成}{13}
-\contentsline {subsubsection}{ノード間距離行列}{13}
-\contentsline {subsubsection}{出現行列}{14}
-\contentsline {subsubsection}{重み行列}{14}
-\contentsline {subsection}{\numberline {3.2.2}次元削減}{15}
+\contentsline {chapter}{\numberline {第{2}章}関連研究 }{5}
+\contentsline {section}{\numberline {2.1}評価構造と評価グリッド法}{5}
+\contentsline {section}{\numberline {2.2}テキストデータ分析}{8}
+\contentsline {section}{\numberline {2.3}重複阻止}{10}
+\contentsline {chapter}{\numberline {第{3}章}提案手法 }{13}
+\contentsline {section}{\numberline {3.1}使用データ}{13}
+\contentsline {section}{\numberline {3.2}座標計算}{14}
+\contentsline {subsection}{\numberline {3.2.1}単語間距離行列の作成}{14}
+\contentsline {subsubsection}{ノード間距離行列}{14}
+\contentsline {subsubsection}{出現行列}{15}
+\contentsline {subsubsection}{重み行列}{15}
+\contentsline {subsection}{\numberline {3.2.2}次元削減}{16}
 \contentsline {subsection}{\numberline {3.2.3}重複阻止}{16}
-\contentsline {subsubsection}{目的関数}{16}
-\contentsline {paragraph}{単語集約エネルギー項}{17}
-\contentsline {paragraph}{指定領域最大利用エネルギー項}{17}
+\contentsline {subsubsection}{目的関数}{17}
+\contentsline {paragraph}{単語集約エネルギー項}{18}
+\contentsline {paragraph}{指定領域最大利用エネルギー項}{18}
 \contentsline {subsubsection}{制約条件}{18}
-\contentsline {section}{\numberline {3.3}計算方法}{19}
 \contentsline {chapter}{\numberline {第{4}章}提案システム }{21}
 \contentsline {section}{\numberline {4.1}システム要件}{21}
 \contentsline {subsubsection}{評価構造の全体を把握する}{21}
@@ -53,8 +52,8 @@
 \contentsline {section}{\numberline {7.3}ユーザーフィードバック}{36}
 \contentsline {subsection}{\numberline {7.3.1}5段階評価アンケート結果}{36}
 \contentsline {subsection}{\numberline {7.3.2}自由記述アンケート結果}{36}
-\contentsline {chapter}{\numberline {第{8}章}結論と課題 }{38}
+\contentsline {chapter}{\numberline {第{8}章}結論と今後の課題 }{38}
 \contentsline {section}{\numberline {8.1}結論}{38}
-\contentsline {section}{\numberline {8.2}課題}{39}
+\contentsline {section}{\numberline {8.2}今後の課題}{39}
 \contentsline {chapter}{謝 辞}{41}
 \contentsline {chapter}{参 考 文 献}{42}

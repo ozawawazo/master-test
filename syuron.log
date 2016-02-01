@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  30 JAN 2016 22:24
+This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  1 FEB 2016 19:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -69,6 +69,63 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 (./kueecite.sty
 Package: kueecite 2004/04/20  v 3.8
+) (c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen123
+))
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen124
+)
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box41
+\strutbox@=\box42
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks17
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks18
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
 
 LaTeX Warning: Unused global option(s):
@@ -77,38 +134,28 @@ LaTeX Warning: Unused global option(s):
 (./syuron.aux)
 \openout1 = `syuron.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
  [0]
 \clearpage
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 15.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 15.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 16.
 (./syuron.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
@@ -127,122 +174,119 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 \openout3 = `syuron.fff'.
 
 (syuron.fff)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
  (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 40.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 40.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
  [1
 
 ]
-Overfull \hbox (3.19481pt too wide) in paragraph at lines 59--75
+Overfull \hbox (3.19481pt too wide) in paragraph at lines 68--84
 []\JY1/mc/m/n/12 以上の問題を解決するために本論文は ， 評価項目内に出現する単語
 の頻度と ， 評
  []
 
-[2] [3]
+[2] [3] [4]
 第{2}章.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 127.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 127.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 136.
 Missing character: There is no ^^ef in font cmr12!
 Missing character: There is no ^^bd in font cmr12!
 Missing character: There is no ^^a5 in font cmr12!
-[4
+[5
 
-] [5] [6]
-Overfull \hbox (0.30896pt too wide) in paragraph at lines 238--244
+] [6] [7]
+Overfull \hbox (0.30896pt too wide) in paragraph at lines 247--253
 \JY1/mc/m/n/12 スタ ー分析や共起ネ ッ トワ ークを行う手法\OT1/cmr/m/n/12 , \JY1
 /mc/m/n/12 内容が似た文書の群を探すクラスタ ー
  []
 
-[7] [8]
+[8] [9]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 287.
- [9] [10] [11]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 296.
+ [10] [11] [12]
 第{3}章.
-[12
+
+Overfull \hbox (3.11555pt too wide) in paragraph at lines 355--360
+\JY1/mc/m/n/12 接リストを使用する 。 評価項目のラベルであるテキストから形態素解
+析を行い 、 形
+ []
+
+[13
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 370.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 381.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 370.
- [13] [14] [15]
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 381.
+ [14] [15] [16]
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^81 in font cmr12!
 Missing character: There is no ^^84 in font cmr12!
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^81 in font cmr12!
 Missing character: There is no ^^a1 in font cmr12!
+Missing character: There is no ^^e2 in font cmr12!
+Missing character: There is no ^^81 in font cmr12!
+Missing character: There is no ^^a1 in font cmr12!
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 507.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 520.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 507.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 520.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 507.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 520.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 518.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 533.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 518.
-
-[16]
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 523.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 533.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 525.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 538.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 527.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 540.
+
+[17]
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 543.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 534.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 551.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 537.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 554.
 
 
-Overfull \hbox (2.3312pt too wide) in paragraph at lines 537--541
+Overfull \hbox (2.3312pt too wide) in paragraph at lines 554--558
 \JY1/mc/m/n/12 最大利用エネルギー項であり\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 この
-関数の目的は指定領域を細胞で最大限満たすこ
+関数の目的は指定領域をセルで最大限満たすこ
  []
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 542.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 559.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 545.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 562.
 
 
-Overfull \hbox (2.3312pt too wide) in paragraph at lines 543--546
+Overfull \hbox (2.3312pt too wide) in paragraph at lines 560--563
 \JY1/mc/m/n/12 ど小さくなり\OML/cmm/m/it/12 ; \JY1/mc/m/n/12 指定領域の短辺の長
-さと最大の細胞の辺の長さが等しい場合に最小
+さと最大のセルの辺の長さが等しい場合に最小
  []
 
-[17] [18] [19]
-Overfull \hbox (21.2818pt too wide) in paragraph at lines 630--631
-[]$\JY1/mc/m/n/12 問題 \OML/cmm/m/it/12 P[]\JY1/mc/m/n/12 を， 部分問題 \OML/cm
-m/m/it/12 P[]; :::; P[]\JY1/mc/m/n/12 に分解し\OML/cmm/m/it/12 ; A \OT1/cmr/m/n
-/12 = (\OML/cmm/m/it/12 A \OMS/cmsy/m/n/12 ^^@ []\OT1/cmr/m/n/12 ) \JY1/mc/m/n/
-12 ∪ []\OML/cmm/m/it/12 P[]; :::; P[][] \JY1/mc/m/n/12 と
- []
-
-[20]
+[18] [19] [20]
 第{4}章.
 
-Overfull \hbox (0.56903pt too wide) in paragraph at lines 671--678
+Overfull \hbox (0.56903pt too wide) in paragraph at lines 653--660
 []\JY1/mc/m/n/12 分析者はどのような単語や評価項目が評価構造内に現れているかに関
 心がある\OT1/cmr/m/n/12 .
  []
@@ -252,7 +296,7 @@ Overfull \hbox (0.56903pt too wide) in paragraph at lines 671--678
 ] [22] [23] [24] [25]
 第{5}章.
 
-Overfull \hbox (4.54852pt too wide) in paragraph at lines 800--807
+Overfull \hbox (4.54852pt too wide) in paragraph at lines 782--789
 \JY1/mc/m/n/12 の中で\OT1/cmr/m/n/12 , \JY1/mc/m/n/12 ネ ッ トワ ーク図と \OT1/
 cmr/m/n/12 Word Cloud \JY1/mc/m/n/12 間の連携部分以外は搭載されている\OT1/cmr/m
 /n/12 . NWord
@@ -265,19 +309,19 @@ cmr/m/n/12 Word Cloud \JY1/mc/m/n/12 間の連携部分以外は搭載されて�
 [30
 
 ] [31]
-Overfull \hbox (0.2959pt too wide) in paragraph at lines 974--975
+Overfull \hbox (0.2959pt too wide) in paragraph at lines 956--957
 []\JY1/mc/m/n/12 ネ ッ トワ ーク表示では拡大と移動を行わなければ文章を読み取る
 ことができ
  []
 
 
-Overfull \hbox (3.19037pt too wide) in paragraph at lines 975--976
+Overfull \hbox (3.19037pt too wide) in paragraph at lines 957--958
 \JY1/mc/m/n/12 置されていることが多いので単語間の関係性が読み取りやすいという点
 で優
  []
 
 [32]
-Overfull \hbox (0.2959pt too wide) in paragraph at lines 982--983
+Overfull \hbox (0.2959pt too wide) in paragraph at lines 964--965
 []\JY1/mc/m/n/12 空白部分があるので全体的にフ ォ ントサイズを少し大きく出来るの
 ではない
  []
@@ -465,12 +509,12 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 316--317
 
 [59]) (./syuron.aux) ) 
 Here is how much of TeX's memory you used:
- 1137 strings out of 493771
- 14368 string characters out of 6153132
- 73540 words of memory out of 5000000
- 4624 multiletter control sequences out of 15000+600000
- 19426 words of font info for 74 fonts, out of 8000000 for 9000
+ 1737 strings out of 493771
+ 21118 string characters out of 6153132
+ 84974 words of memory out of 5000000
+ 5205 multiletter control sequences out of 15000+600000
+ 21191 words of font info for 82 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 28i,14n,24p,289b,398s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 28i,14n,24p,283b,404s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on syuron.dvi (62 pages, 168940 bytes).
+Output written on syuron.dvi (62 pages, 166848 bytes).
