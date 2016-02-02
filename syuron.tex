@@ -35,11 +35,11 @@
 	ネットワーク図で表す場合，図~\ref{fig:es2}のように頂点は評価項目を表しており，文章でラベル付けされている．
 	また，評価項目間の因果関係をネットワーク図の枝で表現する．
 	マーケティング分野などでは，この評価構造を分析することで，人間の価値観を把握でき，人間の求める商品の推測につながるので，
-	評価構造の効果的な分析方法に関する要求が高まっている\cite{egm6，egm7}．
-	評価構造の分析に関する研究は数多く行われている~\cite{egm8，egm9}．
+	評価構造の効果的な分析方法に関する要求が高まっている\cite{egm6, egm7}．
+	評価構造の分析に関する研究は数多く行われている~\cite{egm8, egm9}．
 	従来の評価構造は，模造紙や付箋などに手書きすることで作成される場合が多く，多人数の評価構造を作成するのには多くの時間を要した．
 	しかし，近年ではE-Grid\footnote{http://egrid.jp}のような，評価グリッド法によるインタビューや評価構造分析をサポートするWebアプリケーションも開発され，
-	評価構造作成及び分析の効率化が進んでいる~\cite{egm6，egm10}．
+	評価構造作成及び分析の効率化が進んでいる~\cite{egm6, egm10}．
 	
 	%%%従来での問題
 	E-Gridのような評価グリッド法を支援するアプリケーションが増加し評価構造作成の効率化が進む一方で，問題も発生している．
@@ -52,7 +52,7 @@
 	また，頻出語と隣接する評価項目を知ることで，多くの人が共有する評価項目の因果関係を知ることができる．
 	このように，頻出する評価項目や頻出語と隣接する評価項目を発見することで消費者の評価構造を把握することができるが，
 	縮小されたネットワーク図では頻出語や評価項目間の関係性が見えづらく，分析を短時間で行うことが困難である．
-	従来の評価構造分析手法では，評価構造を構成する評価項目間の因果関係に着目して因果関係の定量化を行う手法は数多く提案されている~\cite{egm8，egm9}．
+	従来の評価構造分析手法では，評価構造を構成する評価項目間の因果関係に着目して因果関係の定量化を行う手法は数多く提案されている~\cite{egm8, egm9}．
 	しかし，評価構造の分析手法の多くはネットワーク図表示をもとにした分析である．
 	ネットワーク図では上記のような見やすさに関する問題があるので，ネットワーク図以外での表示を行う必要がある．
 	
@@ -147,10 +147,9 @@
 		%%%評価グリッド法の誕生話
 		評価グリッド法は讃井らが提案したインタビュー手法であり，Kellyらが提案したレパートリー・グリッド法\cite{rg1}
 		という認知構造抽出手法を改善した手法であることから，提案当初はレパートリー・グリッド発展法という名称でもあった．
-		讃井らは，レパートリー・グリッド法の欠点である長いインタビュー時間を改善するために，
-		ラダーリング法\cite{rd1}を取り入れることで改善した．
+		讃井らは，ラダーリング法\cite{rd1}を取り入れることで，認知構造のうち評価に関与する部分のみを抽出することを可能にした．
 		ラダーリング法は「〇〇だと何故良いのか，〇〇のどういうところが好きなのか」という質問を繰り返す手法である．
-		また，評価グリッド法では認知構造のうち，評価に関与する部分のみを選択的に抽出することでもインタビュー時間の削減を行った．
+		評価グリッド法では評価に関与する部分のみを選択的に抽出することでインタビュー時間の削減を行った．
 		
 		%%%評価グリッド法の目的，適用先
 		讃井らは，住居設計の際に居住者の住環境評価のプロセスを把握することの重要さから，評価グリッド法を開発した．
@@ -238,7 +237,7 @@
 		その反面，意図的に理論や仮説に都合の良いコーディングが作成される危険も存在する．
 		もう一つは，Correlationalアプローチと呼ばれるもので，分析者の理論仮説や問題意識により汚染されていない状態で，
 		多変量解析などによってコンピュータにデータ分析してもらうアプローチである．
-		近年では，この二つのアプローチを統合したアプローチが提案されている\cite{kh1，kh2}．
+		近年では，この二つのアプローチを統合したアプローチが提案されている\cite{kh1, kh2}．
 		はじめにCorrelationalアプローチによりデータ全体を要約し，その結果を元にコーディングを作成する手順を踏むことで，
 		分析者の持つ理論や問題意識の影響を極力受けない形でデータを分析することが可能となる．
 		提案手法も同様に二つのアプローチからテキスト分析を行う．
@@ -256,17 +255,17 @@
 		ネットワーク可視化は，共起した単語間に線を引く共起ネットワークなどで使用されている．
 		その他にも，keyword-in-context検索結果をネットワーク可視化する手法は数多く提案されている．
 		WattenbergらはWordTreeを提案した\cite{wt1}．
-		また，Wattenbergらもkeyword-in-context検索結果を可視化するWordTreeを提案した\cite{wt1}．
 		WordTreeでは検索結果がツリー構造上で可視化され，可視化結果を対話的に操作することで効率的に文章を探索することができる.
 		Riehmannらも，keyword-in-context検索結果を可視化する例文検索ツールWORDGRAPHを提案した\cite{wg1}．
 		WORDGRAPHもWordTreeと同様に検索結果をツリー構造上で可視化するが，
 		各例文で共起する単語が存在する場合に，共起単語の部分で合流することで下線をまとめ視認性を向上させた．
 		また，WORDGRAPHではワイルドカードを含むkeyword-in-context検索結果を可能としていた．		
-		多次元尺度構成法では，高次元属性を持つ分類対象物を低次元空間における点の布置で表現する手法であり，点間の距離で関係性を表す．
-		Erickらは次元削減を用いたWeb検索結果の可視化を行った\cite{or1}．
+		多次元尺度構成法では，高次元属性を持つ分類対象物を低次元空間における点の布置で表現する手法であり，
+		Word Cloudで可視化する際に単語間の距離で関係性を表すことに利用される\cite{wc2}．
+		ErickらはWeb検索結果の可視化を次元削減を用いて行った\cite{or1}．
 		検索結果のページのテキストデータからそれぞれ文書ベクトルを生成し，次元削減を行うことで文書ベクトルが近い検索ページが近くに配置される．
 		同時に，クラスタリングを行うことで，検索結果に複数分野の情報がある場合に目的の分野の情報を発見しやすくなった．
-		また，多次元尺度構成法で求めた座標をWord Cloudで可視化する研究も提案されている．
+		また，多次元尺度構成法によって求めた座標をWord Cloudで可視化する研究も提案されている．
 		Word Cloudとは，文章中で出現頻度が高い単語を複数選び出し，その頻度に応じた大きさで図示する可視化技術である\cite{wc1}．
 		Word Cloud可視化の一例としてWordleがあげられる\footnote{http://www.wordle.net/}．
 		WordleはJonathanによって開発されたWord Cloudを作成するWebベースのツールであり，
@@ -297,7 +296,7 @@
 		前節では，テキストベースの可視化の一つとして，単語の位置座標を計算したWord Cloudによる可視化について触れた．
 		提案手法のように，多次元データを次元削減し，低次元空間に配置する際，複数の対象が重複することは問題とされている．
 		このような重複問題は，ネットワーク図でも問題とされており，重複阻止手法は古くから研究がされている．
-		重複阻止に関する研究では，以下の美的基準のいずれかを考慮したレイアウトを生成する．
+		重複阻止に関する研究では，以下の美的基準のいずれかを考慮したレイアウトを生成されている\cite{fta2, or2}．
 		\begin{itemize}
 			\item 対象の相対的位置関係を保持する
 			\item 対象間の距離関係を維持する
@@ -390,7 +389,7 @@
 			単語間距離行列Dは，評価構造から計算される出現行列F，ノード間距離行列U，重み行列A から計算される．
 			図~\ref{fig:met2}は評価構造と評価構造から取得された出現行列F，ノード間距離行列U，重み行列Aの例を表す．
 			以下ではノード間距離行列U，出現行列F，重み行列Aの導出方法を述べる．
-			$ノード群はN \in {n_{1}，n_{2}，...，n_{l}}，単語群はW \in {w_{1}，w_{2}，...，w_{m}}，で表す．$
+			$ノード群はN \in \bigl\{n_{1}，n_{2}，...，n_{l} \bigl\}，単語群はW \in \bigl\{w_{1}，w_{2}，...，w_{m} \bigl\}，で表す．$
 			$またノードn_iを回答した人数をa_i，単語w_iの全ノードでの使用回数をu_iと表す．$
 			
 			\subsubsection{ノード間距離行列}
@@ -399,7 +398,7 @@
 				第i行第j列と第j行第i列の要素がn+1となる行列である．
 				また，対角成分の値は全て0である．
 				最短経路の計算は幅優先探索アルゴリズムを使用した．
-				本研究では，MATLABを用いて幅優先探索を行った．
+				本研究では，MATLABを用いて幅優先探索を行った\cite{int1}．
 				このアルゴリズムは横型探索とも言われ，以下のルールに従って探索を行う．
 				
 				\begin{enumerate}
@@ -466,7 +465,8 @@
 
 				
 				
-			上記の3行列F，U，Aを計算した後，以下の式によって単語間距離行列Dを計算する．
+			上記の式(3.1)，(3.2)，(3.3)によって行列F，U，Aを計算した後，
+			以下の式(3.4)によって単語間距離行列Dを計算する．
 			$ネットワーク図内の単語w_iとw_jの最短距離の平均値が，$
 			第i行第j列と第j行第i列の値となる行列である．
 			\begin{eqnarray}
@@ -482,18 +482,18 @@
 			
 		\subsection{次元削減}
 			次に，評価構造内単語間の距離関係を保持したまま単語をWord Cloud可視化するため，単語のx，y軸の値を求めるために次元削減を行う．
-			次元削減を行うことで，単語数の行と2列の行列式を計算し，この2次元の値を単語のx，y軸の値にする．
+			次元削減を行うことで，各単語に2次元の値を与え，この2次元の値を単語のx，y軸の値にする．
 			提案システムでは多次元尺度構成法を適用することで次元削減を行う．
 			多次元尺度構成法とは，多変量解析の一手法である． 分類対象物の関係を低次元空間における点の布置で表現する．
-			多次元尺度法では，始めにヤング・ハウスホルダー変換を施す．
+			多次元尺度構成法では，始めにヤング・ハウスホルダー変換を施す．
 			ヤング・ハウスホルダー変換は距離の2乗の行列に両側から中心化行列をかける演算であり，以下の式で表す．
 			\begin{eqnarray}
 				P = - \frac{1}{2} JDJ^{\mathrm{T}}
 			\end{eqnarray}
 			$単語数をnとすると，行列Jは単位行列から全要素に1/nの行列を引いたn \times n行列を引いたn \times n行列$
-			$行列Dは点 x_i と x_j の間の距離 d_{ij} の2乗を要素とするn×n行列である．$
+			$行列Dは点 x_i と x_j の間の距離 d_{ij} の2乗を要素とするn \times n行列である．$
 			次に，Pをスペクトル分解することで固有値，固有ベクトルを求め，固有値の大きい方から2つ取り，対応する固有ベクトルを取り出す．
-			各単語のx,y座標は取り出した2つの固有ベクトルの値となる．
+			各単語のx, y座標は取り出した2つの固有ベクトルの値となる．
 			
 		\subsection{重複阻止}
 			最後に，計算した座標では単語間の重複が発生するので，単語間の相対的位置関係を崩さないように単語の重なりの除去を行う．
@@ -506,25 +506,25 @@
 			セルが隣接する長方形の重心座標と変更した．
 			以下の節では最適化計算で用いる目的関数，制約条件の説明を行う．
 			
-			指定領域に配置する単語の集合を$G={g_1,g_2,…,g_n}$とし，
-			単語の各文字すなわち各セルの集合を$H={h_{11},h_{12},…,h_{1p},h_{21},…,h_{nq}}$とする．
+			指定領域に配置する単語の集合を$G= \bigl\{g_1,g_2,…,g_n \bigl\}$とし，
+			単語の各文字すなわち各セルの集合を$H= \bigl\{h_{11},h_{12},…,h_{1p},h_{21},…,h_{nq} \bigl\}$とする．
 			各単語は，$g_{i}=(x_{i},y_{i},w_{i})$で表される．
 			$(x_{i},y_{i})$は単語 $g_{i}$ の重心点，$w_{i}>0$ は辺の縦の長さである．
 			$w_{i}$ は$w_{ij} = \alpha_i \delta $と表し，
-			$ \alpha_i $は単語 $g_{i}$ の最頻出語との辺の長さの比であり $ \alpha_i=  e_i⁄(max⁡(e_1,e_2,…,e_n))$ ,			
+			$ \alpha_i $は単語 $g_{i}$ の最頻出語との辺の縦の長さの比であり $ \alpha_i=  e_i⁄(max⁡(e_1,e_2,…,e_n))$ , 
 			$ \delta_i $は最適化後の最頻出語の辺の長さであり $ \delta_i= max⁡(w_1,w_2,…,w_n)$ と表す．
 			$e_i $ は単語 $ g_i $ の評価構造内での出現頻度を表す．
-			各セルは縦，横の辺の長さが $W × H$である指定領域内でセル間の大きさの比率を維持しつつ，
+			各セルは縦，横の辺の長さが $W \times H$である指定領域内でセル間の大きさの比率を維持しつつ，
 			セル間の重複阻止と指定領域の最大利用，セル間の相対的位置関係の保持を達成するように再編成される．
 			図~\ref{fig:met3}は$x_{ij},y_{ij}$と$ \delta $，$W，H$の例である．
 			
-			\subsubsection{目的関数}
+			\subsubsection{重複阻止問題}
 				指定領域内で単語を再編成するために，提案手法では単語の再編成を以下のように最適化問題として定式化した.
 				
 				\begin{equation}
 					\begin{aligned}
 					& \text{minimize}   && \sl{E(\bf{z})} = \sl{E_{comp}(\bf{z})} + \sl{E_{resize}(\bf{z})} \\
-					& \text{subject to} && A \bf{z} \le \bf{b}，  \bf{z} = [\bf{x} \: \bf{y} \: \bf{r} \: \bf{\delta}]^T，\\
+					& \text{subject to} && A \bf{z} \le \bf{b}，  \bf{z} = [\bf{x}^T \: \bf{y}^T \: \bf{r}^T \: \bf{\delta}]^T，\\
 					&                   && \bf{x} = (x_1,x_2,...,x_N)^T \in \bf{R}^N \\
 					&                   && \bf{y} = (y_1,y_2,...,y_N)^T \in \bf{R}^N \\
 					&                   && \bf{r} = (r_{12},...,r_{1N},r_{23},...,r_{2N},...,r_{N−1N})^T，
@@ -620,7 +620,7 @@
 				この3つの制約条件により，重複阻止と指定領域の最大利用，セル間の相対的位置関係の保持を満たした単語の再編成が達成される．
 				
 				本研究では，最適化計算を行うために，
-				Gurobi Optimization Package\footnote{http://www.gurobi.com/}により提供されるソルバーGurobi Optimizerを使用した.
+				Gurobi Optimizer\footnote{http://www.gurobi.com/}により提供されるソルバーGurobi Optimizerを使用した.
 	
 		\begin{figure}
 			\begin{center}
@@ -654,7 +654,7 @@
 \chapter{提案システム}
 	\section{システム要件}
 		尾上が評価グリッド法の専門家のインタビュー結果を通して，評価構造分析システムの要件を分析した\cite{hak1}．
-		先行研究で明らかにされた評価構造分析に求められている要件は以下のように要約された．
+		先行研究で明らかにされた評価構造分析に求められている要件は以下のように要約される．
 		\subsubsection{評価構造の全体を把握する}
 			分析者はどのような単語や評価項目が評価構造内に現れているかに関心がある．
 			頻出する単語，評価項目だけでなく一度しか出現しない単語，評価項目にも予想外の発見が存在する可能性はある．
@@ -724,11 +724,11 @@
 				グループ分けを行うことが可能である．
 			
 		\subsection{ユーザインタラクション}
-			提案システムでは主に2つのユーザインタラクションを実装している．
+			提案システムでは主に2種類のユーザインタラクションを実装している．
 			1つ目はWord Cloud内単語の評価構造内での関係性を表示するための単語選択，
 			2つ目はWord Cloud内単語の評価構造内での関係性の絞り込みを行うためのリスト内チェックボックス選択である．
 			
-			1つ目の機能は，Word Cloudウィンドウで発見した注目したい単語の詳細情報を知るための機能である．
+			1つ目のインタラクションは，Word Cloudウィンドウで発見した注目したい単語の詳細情報を知るための機能である．
 			注目したい単語を選択，もしくはマウスオーバーすることで3つのウィンドウが連動し表示画面が変化する．
 			単語をマウスオーバーすると，評価構造ウィンドウでマウスオーバーされた単語が使用されている評価項目が赤色で強調される．
 			次に，単語を選択すると，Word Cloudウィンドウでは選択した単語の評価構造内での関係性を表示する．
@@ -740,17 +740,18 @@
 			エッジの色について選択単語が使用されている評価項目の上位概念の評価項目の単語と結ぶ線は青色，
 			下位概念の評価項目の単語と結ぶ線は赤色で表示される．
 			評価項目リストウィンドウでは，選択単語が使用されている評価項目を表示することで評価項目の情報を示す．
-			評価構造ウィンドウでは，選択単語が使用されている評価項目とその上位，下位概念の評価項目が強調される．
-			選択単語が使用されている評価項目は紫色，選択単語が使用されている評価項目の上位，下位概念はそれぞれ青色，赤色で強調される．
+			評価構造ウィンドウでは，選択単語が使用されている評価項目とその上位及び下位概念の評価項目が強調される．
+			選択単語が使用されている評価項目は紫色，選択単語が使用されている評価項目の上位及び下位概念はそれぞれ青色，赤色で強調される．
 			これによって注目単語と関係をもつ評価項目と単語の詳細を把握することができる．
 			
-			また，2つ目の機能は1つ目の機能を使用した後に使えるようになり，
-			選択単語が複数の評価項目で使用されている場合に，その中の特定の評価項目が評価構造内のどこにあるのか，
-			その上位，下位概念の評価項目は何であるかを知りたい際に使用される．
+			また，2つ目のインタラクションは1つ目のインタラクションを使用した後に使えるようになる．
+			2つ目のインタラクションは，選択単語が複数の評価項目で使用されている場合に，その中の特定の評価項目が評価構造内のどこにあるのか，
+			その上位及び下位概念の評価項目は何であるかを知りたい際に使用される．
 			評価項目リストウィンドウ内で，詳細を知りたい評価項目の列のチェックボックスを選択することで，
-			評価構造ウィンドウでは，選択評価項目，その上位，下位概念の評価項目のみが強調される．
-			同時にWord Cloudウィンドウでも，選択評価項目，その上位，下位概念の評価項目の単語のみが強調される．
-			これらのインタラクションによりユーザーは注目したい情報を対話的な操作から得ることができる．
+			評価構造ウィンドウでは，選択評価項目，その上位及び下位概念の評価項目のみが強調される．
+			同時にWord Cloudウィンドウでも，選択評価項目，その上位及び下位概念の評価項目の単語のみが強調される．
+			
+			これら2種類のインタラクションによりユーザーは注目した単語や評価項目の詳細情報を対話的な操作から得ることができる．
 			
 		\begin{figure}
 			\begin{center}
@@ -1105,7 +1106,7 @@
 		三つ目は評価項目間の関係性を把握に関してである．
 		ワードクラウドウィンドウ内の注目単語をクリックすることで，クリックした単語と隣接する評価項目の単語を確認することができた．
 		また，クリックした単語が使用されている評価項目が評価構造ウィンドウ内で強調されることで隣接する評価項目だけでなく，
-		上位，下位概念の項目を全て確認することができた．
+		上位及び下位概念の項目を全て確認することができた．
 		四つ目は評価項目のグループ分けである．
 		ワードクラウドウィンドウでは評価構造内で隣接関係にある単語が近くに配置されているため，グループ分けを行うことができた．
 		しかし，全ての単語がグループ分けできている訳ではなく，複数グループの評価項目に出現する単語などはグループ分けできなかった．
@@ -1210,24 +1211,30 @@
 		二つ目は，単語のフォントサイズに関してである．
 		文字のサイズを大きくさせることは，評価構造の概観をより容易にするためには求められる．
 		提案手法では，空白部分がまだ多く残っていたのでこれをさらに削減させ，その分フォントサイズを大きくすることが改善点の一つとしてあげられる．
-		また，単語のフォントサイズの決定の際に頻出語の線形比ではなく，対数比などにすることで最小単語のフォントサイズを大きくすることも検証する必要がある．
+		単語のフォントサイズについて，提案手法頻出語の線形比でフォントサイズを決定しているが，
+		対数比などにすることで最小単語のフォントサイズを大きくすることも検証する必要がある．
+		また，フォントサイズを出現頻度ではなく，tfidfなど他の値を用いることも考えられる．		
 		
 		三つ目は，より詳細な情報の可視化に関してである．
 		ケーススタディで，Word Cloud内の注目単語の回答者人数や回答者名が分析には求められていることがわかった．
 		このように，より多くの情報を可視化することがより効果的な分析には求められている．
 		また，単語をマウスオーバーすることで，その単語が使用されている評価項目を表示する機能など，
 		より簡単な操作で情報を表示する機能なども必要である．
-		この他にも単語の検索機能や，品詞別で表示単語の絞り込み，副詞など提案手法では表示しなかった品詞の可視化などが
-		より効果的な分析に必要だと考えられる．
+		この他にも単語の検索機能や，品詞別で表示単語の絞り込み，副詞など提案手法では表示しなかった品詞の可視化，共起単語のより分かりやすい可視化などが
+		効果的な分析に必要だと考えられる．
 		
 		四つ目は隣接関係の表示である．
 		提案手法では，Word Cloud内の注目単語をクリックすることで隣接する単語の表示を行うが，
-		より上位，下位の評価項目の表示が求められていることがわかった．
+		より上位及び下位の評価項目の表示が求められていることがわかった．
 		また，提案手法ではわからなかった注目単語と隣接する評価項目の文章の可視化も求められる．
 		
-		また，提案システムに関しては，ケーススタディからインタラクションについての改善が求められていることがわかった．
-		よりシンプルなデザインやWord Cloudウィンドウのズーム機能，強調表示の改善などウィンドウごとの機能の向上と，
+		最後に，提案システムに関してはケーススタディからインタラクションについての改善が求められていることがわかった．
+		現在の提案手法では，評価構造の持つ情報の一部を可視化出来ていないので，ネットワーク図など他の可視化結果と併置することが
+		評価構造分析にとって必要である．
+		そのため，よりシンプルなデザインやWord Cloudウィンドウのズーム機能，強調表示の改善などウィンドウごとの機能の向上と，
 		機能間の連携をより向上させることが評価構造のより効果的な分析につながると考えられる．
+		また，ネットワーク図と提案手法による可視化結果のモーフィングは2つの可視化結果の関係性を分かりやすく，
+		効果的な分析につながると考えられる．
 
 %======================================================================
 %		謝辞
@@ -1257,32 +1264,35 @@
 	\bibitem{egm8} 尾上洋介，久木元伸如，小山田耕二, 可視化情報学会における会員満足度の因果関係分析, 可視化情報学会論文集，34，43-51，(2014).
 	\bibitem{egm9} 本村陽一，金出武雄, ヒトの認知・評価構造の定量化モデリングと確率推論，電子情報通信学会技術研究報告，104，25-30，(2005).
 	\bibitem{egm10} Y．Onoue，N．Kukimoto，M．Kioka，K．Koyamada，Visualizing Cognitive Structures Using a Layered Graph Drawing，In Proc of IEEE Pacific Visualization Poster，(2014).
-	\bibitem{egm11} Y．Tsuchida，Y．Kozaka，Development and application of a supporting tool for the evaluation grid method，Architectural Institute of Japan Journal of Technology and Design，14，27，205-208，(2008).
-	\bibitem{egm12} S．Nagasawa，Revision and verification of ”seven tools for new product planning”，KANSEI Engineering International，3，4，3-8，(2002).
-	\bibitem{rg1} G．A．Kelly，The Psychology of Personal Constructs，1 and 2，(1955).
-	\bibitem{rd1} D．N．Hinkle，The change of personal constructs from the viewpoint of a theory of construct implications，PhD thesis，(1965).
+	\bibitem{rg1} G.A．Kelly，The Psychology of Personal Constructs，1 and 2，(1955).
+	\bibitem{rd1} D.N．Hinkle，The change of personal constructs from the viewpoint of a theory of construct implications，PhD thesis，(1965).
 	\bibitem{egm1} 高橋浩伸，大井尚行，インテリア空間における美的価値観と評価構造: 現代日本人の建築空間における美意識に関する基礎的研究，日本建築学会環境系論文集，615，59-64，(2007).
 	\bibitem{egm2} 讃井純一郎，商品企画のためのインタビュー調査: 従来型インタビュー調査と評価グリッド法の現状と課題 (< 特集> 品質経営のための調査の方法)，品質，33，13-20，(2003).
-	%\bibitem{egm3} 来田宣幸，赤井聡文，野球における球速と球速感の関係，日本認知心理学会発表論文集，42，(2009).
-	%\bibitem{egm4} 中前光弘，順位法を用いた視覚評価の信頼性について: 順序尺度の解析と正規化順位法による尺度構成法．日放技学誌，56，725-730，(2000).
+
+	\bibitem{egm11} Y．Tsuchida，Y．Kozaka，Development and application of a supporting tool for the evaluation grid method，Architectural Institute of Japan Journal of Technology and Design，14，27，205-208，(2008).
+	\bibitem{egm12} S．Nagasawa，Revision and verification of ”seven tools for new product planning”，KANSEI Engineering International，3，4，3-8，(2002).
 	\bibitem{net1} Y．Onoue，N．Kukimoto，N．Sakamoto，K．Koyamada，Network Coarse-Graining for Evaluation Structures，In Proc of International Conference on Simulation Technology，34，447-450，(2015)．
-	\bibitem{kh3} C．E．Osgood，G．J．Suci，P．H．Tennenbaum，The measurement of Meaning，University of Illinois Press，(1957)．
+	\bibitem{kh3} C.E．Osgood，G.J．Suci，P.H．Tennenbaum，The measurement of Meaning，University of Illinois Press，(1957)．
 	\bibitem{kh1} 樋口耕一，テキスト型データの計量的分析，理論と方法，数理社会学会，19，101-115，(2004).
 	\bibitem{kh2} 樋口耕一，社会調査のための計量テキスト分析 ―内容分析の継承と発展を目指して―，ナカニシヤ出版，(2004).
+	\bibitem{wt1} M．Wattenberg，B.V．Fernanda，The Word Tree，an interactive visual concordance，IEEE Transactions on Visualization and Computer Graphic，14，1221-1228，(2008).
+	\bibitem{wg1} P．Riehmann，H．Gruendl，M．Potthast，M．Trenkmann，B．Stein，B．Froehlich，WORDGRAPH: Keyword-in-Context Visualization for NETSPEAK's Wildcard Search，IEEE Transactions on Visualization and Computer Graphics，18.9，1411-1423，(2012).
 	\bibitem{wc1} J．Steele，L．Noah，Beautiful visualization，O'Reilly Media Inc，40-60，(2010).
-	\bibitem{wc2} F．B．Viégas，M．Wattenberg，J．Feinberg，Participatory visualization with Wordle，IEEE Transactions on Visualization and Computer Graphics，15，6，1137–44，(2009).
-	\bibitem{wg1} P．Riehmann，H．Gruendl，M．Potthast，M.Trenkmann，B，Stein，B，Froehlich，WORDGRAPH: Keyword-in-Context Visualization for NETSPEAK's Wildcard Search，IEEE Transactions on Visualization and Computer Graphics，18.9，1411-1423，(2012).
-	\bibitem{wt1} M．Wattenberg，B．V．Fernanda，The Word Tree，an interactive visual concordance，IEEE Transactions on Visualization and Computer Graphic，14，1221-1228，(2008).
-	%\bibitem{pn1} F．V．Ham，M．Wattenberg，B．V．Fernanda，Mapping text with phrase nets，IEEE transactions on visualization and computer graphics，15，1169-1176，(2009).
+	\bibitem{or1} E.G．Nieto，F.S．Roman，P．Pagliosa，W．Casaca，E.S．Helou，M.C．Oliveira，L.G．Nonato，Similarity Preserving Snippet-Based Visualization of Web Search Results，IEEE Transactions on Visualization and Computer Graphics，20，457-470，(2014).
+
+	\bibitem{wc2} F.B．Viégas，M．Wattenberg，J．Feinberg，Participatory visualization with Wordle，IEEE Transactions on Visualization and Computer Graphics，15，6，1137–44，(2009).
+	%\bibitem{pn1} F.V．Ham，M．Wattenberg，B.V．Fernanda，Mapping text with phrase nets，IEEE transactions on visualization and computer graphics，15，1169-1176，(2009).
 	%\bibitem{jig1} C．Gorg，J．Stasko，Combining Computational Analyses and Interactive Visualization for Document Exploration and Sensemaking in Jigsaw，IEEE Transactions on Visualization and Computer Graphics，19，1646-1663，(2013).
-	\bibitem{or1} E．G．Nieto，F．S．Roman，P．Pagliosa，W．Casaca，E．S．Helou，M．C．Oliveira，L．G．Nonato，Similarity Preserving Snippet-Based Visualization of Web Search Results，IEEE Transactions on Visualization and Computer Graphics，20，457-470，(2014).
-	\bibitem{fta2} I．Ada，K．Thiel，M．R．Berthold，Distance aware tag clouds，IEEE International Conference on Systems，2316–2322，(2010).
+	\bibitem{fta2} I．Ada，K．Thiel，M.R．Berthold，Distance aware tag clouds，IEEE International Conference on Systems，2316–2322，(2010).
 	\bibitem{fta1} X．Huang，W．Lai，Force-transfer: a new approach to removing overlapping nodes in graph layout，Proceedings of the 26th Australasian computer science conference，16，349-358，(2003).
+	\bibitem{or2} E.G．Nieto，W．Casaca，D．Motta，I．Hartmann，G．Taubin，L．Nonato，Dealing with Multiple Requirements in Geometric Arrangements，IEEE Transactions on Visualization and Computer Graphics，1，(2015).
 	\bibitem{fsa1} E．Peter，W．Lai，Algorithms for disjoint node images，Key Centre for Software Technology，(1991).
 	\bibitem{rwc1} H．Strobelt，M．Spicker，A．Stoffel，D．Keim，O．Deussen，Rolled‐out Wordles: A Heuristic Method for Overlap Removal of 2D Data Representatives，Computer Graphics Forum，31，1135-1144，(2012).
-	\bibitem{or2} E．G．Nieto，W．Casaca，D．Motta，I．Hartmann，G．Taubin，L．Nonato，Dealing with Multiple Requirements in Geometric Arrangements，IEEE Transactions on Visualization and Computer Graphics，1，(2015).
+	\bibitem{int1} Cormen，H．Thomas，Introduction to algorithms，MIT press，(2009).
 	\bibitem{mcb1} T．Kuo，K．Yamamoto，Y．Matsumoto，Applying Conditional Random Fields to Japanese Morphological Analysis，Proceedings of the 2004 conference on empirical methods in natural language processing，230-237，(2004).
-	\bibitem{hak1} 尾上洋介，評価構造のビジュアル分析に関する研究,博士論文，(2016).
+	\bibitem{hak1} 尾上洋介，因果グラフのビジュアル分析に関する研究—評価グリッド法における評価構造分析を通じて—,博士論文，(2016).
+	%\bibitem{egm3} 来田宣幸，赤井聡文，野球における球速と球速感の関係，日本認知心理学会発表論文集，42，(2009).
+	%\bibitem{egm4} 中前光弘，順位法を用いた視覚評価の信頼性について: 順序尺度の解析と正規化順位法による尺度構成法．日放技学誌，56，725-730，(2000).
 \end{thebibliography}
 
 %======================================================================

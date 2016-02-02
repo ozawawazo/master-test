@@ -12,7 +12,7 @@
 \contentsline {subsubsection}{重み行列}{15}
 \contentsline {subsection}{\numberline {3.2.2}次元削減}{16}
 \contentsline {subsection}{\numberline {3.2.3}重複阻止}{16}
-\contentsline {subsubsection}{目的関数}{17}
+\contentsline {subsubsection}{重複阻止問題}{17}
 \contentsline {paragraph}{単語集約エネルギー項}{18}
 \contentsline {paragraph}{指定領域最大利用エネルギー項}{18}
 \contentsline {subsubsection}{制約条件}{18}
