@@ -149,7 +149,7 @@
 \includegraphics[width=\linewidth]{./png/que2.JPG}
 }
 \end{center}
-\caption{NWord Cloudによるタスク2の例}
+\caption{Nword Cloudによるタスク2の例}
    \label{fig:que2}
 \end{figure*}
 \kueeseparator
@@ -161,7 +161,7 @@
 \includegraphics[width=\linewidth]{./png/que3.JPG}
 }
 \end{center}
-\caption{RWord Cloudによるタスク3の例}
+\caption{Rword Cloudによるタスク3の例}
    \label{fig:que3}
 \end{figure*}
 \kueeseparator
