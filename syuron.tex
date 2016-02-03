@@ -776,28 +776,28 @@
 
 %%評価実験
 \chapter{評価実験}
-	本章では，提案手法，提案システムの有効性を証明するために行った二組の比較実験とケーススタディ，ユーザーフィードバックの評価実験について述べる．
+	本章では，提案手法，提案システムの有効性を証明するために行った比較実験とケーススタディ，ユーザーフィードバックについて述べる．
 	Word Cloud可視化とWord Cloud内単語の配置座標を計算したことの評価を行うために比較実験とユーザーフィードバックを行った．
 	また，提案システムが評価構造分析に有効であることを証明するためにケーススタディを行った．
 	\section{比較実験}
 		\subsection{比較対象}
 			実験では，二組の比較実験を行った．
-			一組目は提案手法によるWord Cloud表示(Nword Cloud)と従来のネットワーク表示(ネットワーク図)の比較である．
+			一組目は従来のネットワーク表示(ネットワーク図)と提案手法によるWord Cloud(Nword Cloud)の比較である．
 			この比較実験により，Word Cloudによる可視化の有効性を証明する．
-			二組目はNword Cloudと，配置座標をランダムに決定したWord Cloud表示(Rword Cloud)との比較結果を行った．
+			二組目はNword Cloudと，配置座標をランダムに決定したWord Cloud(Rword Cloud)との比較結果を行った．
 			こちらの比較実験ではWord Cloud内の単語の配置座標を考慮することの有効性を証明する．
 			
-			比較実験で使用するネットワーク図のインタラクションは前章で説明した内容の中で，
+			比較実験で使用するネットワーク図のインタラクションは前章で説明した内容のうち，
+			他ウィンドウとの連携部分以外は実装されている．
+			Nword CloudとRword Cloudのインタラクションは前章のWord Cloudウィンドウで説明した内容の中で，
 			ネットワーク図とWord Cloud間の連携部分以外は実装されている．
-			Nword Cloud，Rword Cloudのインタラクションは前章のWord Cloudウィンドウで説明した内容の中で，
-			ネットワーク図とWord Cloud間の連携部分以外は実装されている．
-			また，Nword CloudとRword Cloudには評価項目リスト画面が実装されている．
-			図~\ref{fig:que1}はネットワーク図，図~\ref{fig:que2}はNword Cloud，
-			図~\ref{fig:que3}はRword Cloudの例である．
+			また，Nword CloudとRword Cloudには評価項目リストウィンドウが実装されている．
+			図~\ref{fig:que1}はネットワーク図の例，図~\ref{fig:que2}はNword Cloudの例，
+			図~\ref{fig:que3}はRword Cloudの例を表す．
 			
 		\subsection{実験データ}
 			実験には三種類の評価構造データを使用する．
-			評価構造のデータとして，E-Gridを使用したインタビュー結果から得られたデータを使用した.
+			評価構造のデータとしてE-Gridを使用したインタビュー結果から得られたデータを使用した.
 			インタビューは日本語で，回答者と質問者の1対1で行われた．
 			評価項目数はそれぞれ15個，45個，136個の三種類用意した．
 			評価項目数が15個のデータは，乗りたい自動車についての評価構造である．
@@ -1262,19 +1262,19 @@
 \bibliography{sotsuron}
 \begin{thebibliography}{数字}
 	\bibitem{sen1} 福田忠彦，福田亮子，人間工学ガイド: 感性を科学する方法，サイエンティスト社，175-176，(2009).
-	\bibitem{egm6} J．Sanui，Visualization of users’requirements: Introduction of Evaluation Grid Method，Proceedings of the 3rd Design and Decision Support System in Architecture and Urban Planning Conference，365-374，(1996).
+	\bibitem{egm6} J．Sanui，Visualization of users' requirements: Introduction of Evaluation Grid Method，Proceedings of the 3rd Design and Decision Support System in Architecture and Urban Planning Conference，365-374，(1996).
 	\bibitem{egm7} 讃井純一郎，乾正雄，レパートリー・グリッド発展手法による住環境評価構造の抽出：認知心理学に基づく住環境評価に関する研究(1)．日本建築学会計画系論文報告集，367，15-22，(1986).
 	\bibitem{egm8} 尾上洋介，久木元伸如，小山田耕二, 可視化情報学会における会員満足度の因果関係分析, 可視化情報学会論文集，34，43-51，(2014).
 	\bibitem{egm9} 本村陽一，金出武雄, ヒトの認知・評価構造の定量化モデリングと確率推論，電子情報通信学会技術研究報告，104，25-30，(2005).
 	\bibitem{egm10} Y．Onoue，N．Kukimoto，M．Kioka，K．Koyamada，Visualizing Cognitive Structures Using a Layered Graph Drawing，In Proc of IEEE Pacific Visualization Poster，(2014).
 	\bibitem{wc1} J．Steele，L．Noah，Beautiful visualization，O'Reilly Media Inc，40-60，(2010).
-	\bibitem{rg1} G.A．Kelly，The Psychology of Personal Constructs，1 and 2，(1955).
+	\bibitem{rg1} G.A．Kelly，The Psychology of Personal Constructs，(1955).
 	\bibitem{rd1} D.N．Hinkle，The change of personal constructs from the viewpoint of a theory of construct implications，PhD thesis，(1965).
 	\bibitem{egm1} 高橋浩伸，大井尚行，インテリア空間における美的価値観と評価構造: 現代日本人の建築空間における美意識に関する基礎的研究，日本建築学会環境系論文集，615，59-64，(2007).
 	
-	\bibitem{egm2} 讃井純一郎，商品企画のためのインタビュー調査: 従来型インタビュー調査と評価グリッド法の現状と課題 (< 特集> 品質経営のための調査の方法)，品質，33，13-20，(2003).
+	\bibitem{egm2} 讃井純一郎，商品企画のためのインタビュー調査: 従来型インタビュー調査と評価グリッド法の現状と課題 (特集 品質経営のための調査の方法)，品質，33，13-20，(2003).
 	\bibitem{egm11} Y．Tsuchida，Y．Kozaka，Development and application of a supporting tool for the evaluation grid method，Architectural Institute of Japan Journal of Technology and Design，14，27，205-208，(2008).
-	\bibitem{egm12} S．Nagasawa，Revision and verification of ”seven tools for new product planning”，KANSEI Engineering International，3，4，3-8，(2002).
+	\bibitem{egm12} S．Nagasawa，Revision and verification of seven tools for new product planning，KANSEI Engineering International，3，4，3-8，(2002).
 	\bibitem{net1} Y．Onoue，N．Kukimoto，N．Sakamoto，K．Koyamada，Network Coarse-Graining for Evaluation Structures，In Proc of International Conference on Simulation Technology，34，447-450，(2015)．
 	\bibitem{kh3} C.E．Osgood，G.J．Suci，P.H．Tennenbaum，The measurement of Meaning，University of Illinois Press，(1957)．
 	\bibitem{kh1} 樋口耕一，テキスト型データの計量的分析，理論と方法，数理社会学会，19，101-115，(2004).
