@@ -108,7 +108,7 @@
 \includegraphics[width=\linewidth]{./png/sys1.JPG}
 }
 \end{center}
-\caption{提案システムの概要}
+\caption{提案システムの概要1}
    \label{fig:sys1}
 \end{figure*}
 \kueeseparator
@@ -247,42 +247,6 @@
 
 \begin{center}
 \fbox{
-\includegraphics[width=\linewidth]{./png/res7.JPG}
-}
-\end{center}
-\caption{5段階評価アンケート結果1}
-   \label{fig:res7}
-\end{figure*}
-\kueeseparator
- 
-\begin{figure*}
-
-\begin{center}
-\fbox{
-\includegraphics[width=\linewidth]{./png/res8.JPG}
-}
-\end{center}
-\caption{5段階評価アンケート結果2}
-   \label{fig:res8}
-\end{figure*}
-\kueeseparator
- 
-\begin{figure*}
-
-\begin{center}
-\fbox{
-\includegraphics[width=\linewidth]{./png/res9.JPG}
-}
-\end{center}
-\caption{5段階評価アンケート結果3}
-   \label{fig:res9}
-\end{figure*}
-\kueeseparator
- 
-\begin{figure*}
-
-\begin{center}
-\fbox{
 \includegraphics[width=\linewidth]{./png/cas1.JPG}
 }
 \end{center}
@@ -300,6 +264,42 @@
 \end{center}
 \caption{注目評価項目の上位及び下位の評価項目探索}
    \label{fig:cas2}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res-sub1.JPG}
+}
+\end{center}
+\caption{5段階評価アンケート結果1}
+   \label{fig:res7}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res-sub2.JPG}
+}
+\end{center}
+\caption{5段階評価アンケート結果2}
+   \label{fig:res8}
+\end{figure*}
+\kueeseparator
+ 
+\begin{figure*}
+
+\begin{center}
+\fbox{
+\includegraphics[width=\linewidth]{./png/res-sub3.JPG}
+}
+\end{center}
+\caption{5段階評価アンケート結果3}
+   \label{fig:res9}
 \end{figure*}
 \kueeseparator
  

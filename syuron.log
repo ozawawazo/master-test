@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  2 FEB 2016 18:31
+This is e-pTeX, Version 3.14159265-p3.6-150805-2.6 (utf8.sjis) (TeX Live 2015/W32TeX) (preloaded format=platex 2015.8.6)  3 FEB 2016 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -180,10 +180,16 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
- [1
+
+Overfull \hbox (4.29332pt too wide) in paragraph at lines 45--59
+\JY1/mc/m/n/12 での作成では多人数の評価構造を統合することが困難であ っ たが ， 
+\OT1/cmr/m/n/12 Web \JY1/mc/m/n/12 アプリケ ー
+ []
+
+[1
 
 ]
-Overfull \hbox (3.19481pt too wide) in paragraph at lines 68--84
+Overfull \hbox (3.19481pt too wide) in paragraph at lines 69--85
 []\JY1/mc/m/n/12 以上の問題を解決するために本論文は ， 評価項目内に出現する単語
 の頻度と ， 評
  []
@@ -191,58 +197,57 @@ Overfull \hbox (3.19481pt too wide) in paragraph at lines 68--84
 [2] [3] [4]
 第{2}章.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 136.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 137.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 136.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 137.
 Missing character: There is no ^^ef in font cmr12!
 Missing character: There is no ^^bd in font cmr12!
 Missing character: There is no ^^a5 in font cmr12!
 [5
 
 ] [6] [7]
-Overfull \hbox (3.12883pt too wide) in paragraph at lines 246--252
+Overfull \hbox (3.12883pt too wide) in paragraph at lines 248--254
 \JY1/mc/m/n/12 スタ ー分析や共起ネ ッ トワ ークを行う手法 ， 内容が似た文書の群
 を探すクラスタ ー
  []
 
 [8]
-Overfull \hbox (4.9522pt too wide) in paragraph at lines 254--293
-\OT1/cmr/m/n/12 Riehmann \JY1/mc/m/n/12 らも ， \OT1/cmr/m/n/12 keyword-in-cont
-ext \JY1/mc/m/n/12 検索結果を可視化する例文検索ツ ール \OT1/cmr/m/n/12 WORD-
+Overfull \hbox (0.22108pt too wide) in paragraph at lines 256--295
+\JY1/mc/m/n/12 次元尺度構成法などが挙げられる ． ネ ッ トワ ーク可視化の例とし
+ては ， 単語にノ ー
  []
 
-[9]
+[9] [10]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 301.
- [10]
-Overfull \hbox (0.6186pt too wide) in paragraph at lines 314--329
-\JY1/mc/m/n/12 維持した重複阻止が達成された ． \OT1/cmr/m/n/12 Stro-belt \JY1/m
-c/m/n/12 らは \OT1/cmr/m/n/12 Rwordle-C \JY1/mc/m/n/12 を提案した []． \OT1/cmr
-/m/n/12 Rwordle-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 304.
+
+Overfull \hbox (0.29173pt too wide) in paragraph at lines 333--347
+\JY1/mc/m/n/12 た目的関数を作成し座標を計算する手法を提案した []． \OT1/cmr/m/n
+/12 NEIGH-BOR-HOOD PRE-
  []
 
 [11] [12]
 第{3}章.
 
-Overfull \hbox (3.11555pt too wide) in paragraph at lines 360--365
+Overfull \hbox (3.11555pt too wide) in paragraph at lines 363--368
 \JY1/mc/m/n/12 接リストを使用する ． 評価項目のラベルであるテキストから形態素解
 析を行い ， 形
- []
-
-
-Overfull \hbox (7.2101pt too wide) in paragraph at lines 366--376
-\JY1/mc/m/n/12 記載されている ． 提案手法では ， 形態素解析に日本語形態素解析シ
-ステム \OT1/cmr/m/n/12 MeCab[]
  []
 
 [13
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 386.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 388.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 386.
- [14] [15] [16]
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 388.
+ [14] [15]
+Overfull \hbox (2.37964pt too wide) in paragraph at lines 502--511
+\JY1/mc/m/n/12 そのため ， 最適化計算をする座標はセルと呼ばれる正方形の重心座標
+ではなく， セ
+ []
+
+[16]
 Missing character: There is no ^^e2 in font cmr12!
 Missing character: There is no ^^81 in font cmr12!
 Missing character: There is no ^^84 in font cmr12!
@@ -254,52 +259,52 @@ Missing character: There is no ^^81 in font cmr12!
 Missing character: There is no ^^a1 in font cmr12!
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 526.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 529.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 526.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 529.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 526.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 529.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 539.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 542.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 539.
-
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 544.
-
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 546.
-
-
-Overfull \hbox (2.37964pt too wide) in paragraph at lines 544--547
-\JY1/mc/m/n/12 項であり， この関数の目的はセルを狭い範囲で簡潔に表すことである 
-． エネルギ ー
- []
+LaTeX Font Warning: Command \sl invalid in math mode on input line 542.
 
 [17]
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 547.
+
 
 LaTeX Font Warning: Command \sl invalid in math mode on input line 549.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 557.
+Overfull \hbox (2.37964pt too wide) in paragraph at lines 547--550
+\JY1/mc/m/n/12 項であり， この関数の目的はセルを狭い範囲で簡潔に表すことである 
+． エネルギ ー
+ []
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 552.
 
 
 LaTeX Font Warning: Command \sl invalid in math mode on input line 560.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 565.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 563.
 
 
 LaTeX Font Warning: Command \sl invalid in math mode on input line 568.
 
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 571.
+
 [18] [19] [20]
 第{4}章.
 
-Overfull \hbox (1.70769pt too wide) in paragraph at lines 659--666
+Overfull \hbox (1.70769pt too wide) in paragraph at lines 661--668
 []\JY1/mc/m/n/12 分析者はどのような単語や評価項目が評価構造内に現れているかに関
 心がある ．
  []
@@ -307,7 +312,7 @@ Overfull \hbox (1.70769pt too wide) in paragraph at lines 659--666
 [21
 
 ]
-Overfull \hbox (0.30034pt too wide) in paragraph at lines 683--685
+Overfull \hbox (0.30034pt too wide) in paragraph at lines 685--687
 []\JY1/mc/m/n/12 前節で述べたシステム要件をもとに ， 評価構造分析システムの開発
 を行 っ た ． 本
  []
@@ -315,61 +320,79 @@ Overfull \hbox (0.30034pt too wide) in paragraph at lines 683--685
 [22] [23] [24] [25]
 第{5}章.
 
-Overfull \hbox (5.34016pt too wide) in paragraph at lines 788--795
+Overfull \hbox (10.95055pt too wide) in paragraph at lines 779--782
+\JY1/mc/m/n/12 較実験とケ ーススタデ ィ ， ユ ーザ ーフ ィ ードバ ッ クの評価実
+験について述べる ． \OT1/cmr/m/n/12 Word
+ []
+
+
+Overfull \hbox (5.34016pt too wide) in paragraph at lines 790--797
 \JY1/mc/m/n/12 の中で ， ネ ッ トワ ーク図と \OT1/cmr/m/n/12 Word Cloud \JY1/mc
 /m/n/12 間の連携部分以外は実装されている ． \OT1/cmr/m/n/12 Nword
  []
 
 
-Overfull \hbox (1.2044pt too wide) in paragraph at lines 797--807
-[]\JY1/mc/m/n/12 実験には \OT1/cmr/m/n/12 3 \JY1/mc/m/n/12 種類の評価構造デ ー
-タを使用する ． 評価構造のデ ータとして ， \OT1/cmr/m/n/12 E-Grid
+Overfull \hbox (3.7293pt too wide) in paragraph at lines 799--809
+[]\JY1/mc/m/n/12 実験には三種類の評価構造デ ータを使用する ． 評価構造のデ ータ
+として ， \OT1/cmr/m/n/12 E-Grid
  []
 
 [26
 
-] [27] [28] [29]
+]
+Overfull \hbox (1.70769pt too wide) in paragraph at lines 811--813
+[]\JY1/mc/m/n/12 三種類の評価構造デ ータの可視化に対してそれぞれ三種類のタスク
+を用意した ．
+ []
+
+
+Overfull \hbox (2.37964pt too wide) in paragraph at lines 819--826
+\JY1/mc/m/n/12 把握への有効性を評価するために ， 評価構造内で頻出する評価項目だ
+けでなく， 一
+ []
+
+[27] [28] [29]
 第{6}章.
 [30
 
 ]
-Overfull \hbox (0.65213pt too wide) in paragraph at lines 932--939
+Overfull \hbox (0.65213pt too wide) in paragraph at lines 934--941
 \JY1/mc/m/n/12 ウの 「 マイナスイオンで癒やされたい 」 以外のチ ェ ッ クボ ッ 
 クスを外し ， ネ ッ トワ ー
  []
 
 [31]
-Overfull \hbox (0.2959pt too wide) in paragraph at lines 962--963
+Overfull \hbox (0.2959pt too wide) in paragraph at lines 964--965
 []\JY1/mc/m/n/12 ネ ッ トワ ーク図では拡大と移動を行わなければ文章を読み取るこ
 とができな
  []
 
 
-Overfull \hbox (3.19037pt too wide) in paragraph at lines 963--964
+Overfull \hbox (3.19037pt too wide) in paragraph at lines 965--966
 \JY1/mc/m/n/12 置されていることが多いので単語間の関係性が読み取りやすいという点
 で優
  []
 
 [32]
-Overfull \hbox (0.28262pt too wide) in paragraph at lines 968--969
+Overfull \hbox (0.28262pt too wide) in paragraph at lines 970--971
 []\JY1/mc/m/n/12 ある特定の単語にマウスオ ーバ ーすることで ， 関連する単語が浮
 かび上がる
  []
 
 
-Overfull \hbox (0.28262pt too wide) in paragraph at lines 968--969
+Overfull \hbox (0.28262pt too wide) in paragraph at lines 970--971
 \JY1/mc/m/n/12 動作は ， 明確な検索ワ ードを持ち合わせていないけれども探索を行
 いたい時
  []
 
 
-Overfull \hbox (0.28262pt too wide) in paragraph at lines 969--970
+Overfull \hbox (0.28262pt too wide) in paragraph at lines 971--972
 \JY1/mc/m/n/12 ジで確認することができるため ， より自由な発想につながる可能性を
 感じま
  []
 
 
-Overfull \hbox (0.2959pt too wide) in paragraph at lines 970--971
+Overfull \hbox (0.2959pt too wide) in paragraph at lines 972--973
 []\JY1/mc/m/n/12 空白部分があるので全体的にフ ォ ントサイズを少し大きく出来るの
 ではない
  []
@@ -381,15 +404,21 @@ Overfull \hbox (0.2959pt too wide) in paragraph at lines 970--971
 ] [35] [36] [37]
 第{8}章.
 
-Overfull \hbox (3.11555pt too wide) in paragraph at lines 1176--1180
+Overfull \hbox (3.11555pt too wide) in paragraph at lines 1179--1183
 \JY1/mc/m/n/12 構造分析の非効率化という問題に対して ， 評価項目内に出現する単語
 の頻度と ， 評
+ []
+
+
+Overfull \hbox (0.30034pt too wide) in paragraph at lines 1198--1202
+[]\JY1/mc/m/n/12 最後に ， ケ ーススタデ ィ から提案システムの有効性を確認する
+ことができた ． 提
  []
 
 [38
 
 ] [39] [40]
-Overfull \hbox (1.17323pt too wide) in paragraph at lines 1243--1254
+Overfull \hbox (1.17323pt too wide) in paragraph at lines 1246--1257
 \JY1/mc/m/n/12 わたるご指摘を賜りました ． 神戸大学 システム情報学研究科の坂本
 尚久講師には ，
  []
@@ -400,21 +429,14 @@ No file syuron.bbl.
 ] [42
 
 ]
-Underfull \hbox (badness 2150) in paragraph at lines 1276--1277
+Underfull \hbox (badness 2150) in paragraph at lines 1280--1281
 []\JY1/mc/m/n/12 樋口耕一 ， テキスト型デ ータの計量的分析 ， 理論と方法 ， 数
 理社会学会 ，
  []
 
 Missing character: There is no ^^c3 in font cmr12!
 Missing character: There is no ^^a9 in font cmr12!
-Missing character: There is no ^^e2 in font cmr12!
-Missing character: There is no ^^80 in font cmr12!
-Missing character: There is no ^^93 in font cmr12!
-[43]
-Missing character: There is no ^^e2 in font cmr12!
-Missing character: There is no ^^80 in font cmr12!
-Missing character: There is no ^^93 in font cmr12!
- AED kuee: Processing end Figures and Tables [44] (./syuron.fff
+[43] AED kuee: Processing end Figures and Tables [44] (./syuron.fff
 File: ./png/es1.JPG Graphic file (type bmp)
 
 <./png/es1.JPG>
@@ -454,13 +476,21 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 80--81
  [] 
  []
 
+
+LaTeX Warning: Text page 48 contains only floats.
+
+[48
+
+
+
+]
 File: ./png/met3.JPG Graphic file (type bmp)
-<./png/met3.JPG>
+ <./png/met3.JPG>
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 92--93
  [] 
  []
 
-[48] [49]
+[49]
 File: ./png/sys1.JPG Graphic file (type bmp)
  <./png/sys1.JPG>
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 109--110
@@ -512,9 +542,6 @@ LaTeX Warning: Text page 53 contains only floats.
 
 
 
-
-
-
 ]
 File: ./png/res3.JPG Graphic file (type bmp)
  <./png/res3.JPG>
@@ -544,37 +571,45 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 239--240
  [] 
  []
 
-File: ./png/res7.JPG Graphic file (type bmp)
-<./png/res7.JPG>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 251--252
- [] 
- []
 
-File: ./png/res8.JPG Graphic file (type bmp)
-<./png/res8.JPG>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 263--264
- [] 
- []
+LaTeX Warning: Text page 55 contains only floats.
 
-File: ./png/res9.JPG Graphic file (type bmp)
-<./png/res9.JPG>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 275--276
- [] 
- []
 
+Overfull \vbox (0.68463pt too high) has occurred while \output is active []
+
+
+[55]
 File: ./png/cas1.JPG Graphic file (type bmp)
-<./png/cas1.JPG>
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 287--288
+ <./png/cas1.JPG>
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 251--252
  [] 
  []
 
 File: ./png/cas2.JPG Graphic file (type bmp)
 <./png/cas2.JPG>
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 263--264
+ [] 
+ []
+
+File: ./png/res-sub1.JPG Graphic file (type bmp)
+<./png/res-sub1.JPG>
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 275--276
+ [] 
+ []
+
+File: ./png/res-sub2.JPG Graphic file (type bmp)
+<./png/res-sub2.JPG>
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 287--288
+ [] 
+ []
+
+File: ./png/res-sub3.JPG Graphic file (type bmp)
+<./png/res-sub3.JPG>
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 299--300
  [] 
  []
 
-[55] [56] [57] [58]
+[56] [57] [58]
 File: ./png/res10.JPG Graphic file (type bmp)
  <./png/res10.JPG>
 Overfull \hbox (14.63324pt too wide) in paragraph at lines 316--317
@@ -584,11 +619,11 @@ Overfull \hbox (14.63324pt too wide) in paragraph at lines 316--317
 [59]) (./syuron.aux) ) 
 Here is how much of TeX's memory you used:
  1740 strings out of 493771
- 21135 string characters out of 6153132
+ 21171 string characters out of 6153132
  84974 words of memory out of 5000000
  5208 multiletter control sequences out of 15000+600000
  21191 words of font info for 82 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  28i,14n,24p,278b,404s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on syuron.dvi (62 pages, 173188 bytes).
+Output written on syuron.dvi (62 pages, 173876 bytes).
